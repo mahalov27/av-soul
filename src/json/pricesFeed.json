@@ -1,0 +1,67 @@
+[
+  {
+    "id": "001",
+    "title": "Portrait",
+    "price": 100,
+    "listItems": [
+      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
+      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
+      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+    ],
+    "src": "./pricesPosters/BG_price_portrait.jpg"
+  },
+  {
+    "id": "002",
+    "title": "Family",
+    "price": 100,
+    "listItems": [
+      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
+      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
+      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+    ],
+    "src": "./pricesPosters/BG_price_family.jpg"
+  },
+  {
+    "id": "003",
+    "title": "Love Story",
+    "price": 100,
+    "listItems": [
+      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
+      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
+      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+    ],
+    "src": "./pricesPosters/BG_price_love_story.jpg"
+  },
+  {
+    "id": "004",
+    "title": "Pregnancy",
+    "price": 100,
+    "listItems": [
+      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
+      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
+      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+    ],
+    "src": "./pricesPosters/BG_price_pregnancy.jpg"
+  },
+  {
+    "id": "005",
+    "title": "Wedding",
+    "price": 100,
+    "listItems": [
+      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
+      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
+      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
+      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+    ],
+    "src": "./pricesPosters/BG_price_wedding.jpg"
+  }
+]
