@@ -37,22 +37,22 @@ const Header = () => {
           (mobileNavigation && styles.navListActive)
         }
       >
-        <li className={styles.navItem}>
+        <li className={styles.navItem} onClick={handleClick}>
           <NavLink to="/" className={styles.navLink} end>
             About me
           </NavLink>
         </li>
-        <li className={styles.navItem}>
+        <li className={styles.navItem} onClick={handleClick}>
           <NavLink to="portfolio" className={styles.navLink}>
             Portfolio
           </NavLink>
         </li>
-        <li className={styles.navItem}>
+        <li className={styles.navItem} onClick={handleClick}>
           <NavLink to="prices" className={styles.navLink}>
             Prices
           </NavLink>
         </li>
-        <li className={styles.navItem}>
+        <li className={styles.navItem} onClick={handleClick}>
           <NavLink to="contacts" className={styles.navLink}>
             Contacts
           </NavLink>
