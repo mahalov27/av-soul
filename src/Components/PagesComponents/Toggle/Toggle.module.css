@@ -1,0 +1,46 @@
+.toggleBlock {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -150px;
+  right: 5px;
+  height: 22px;
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 35px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 50px;
+  margin: 0 3px;
+  box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.toggleBtn {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.togglePositionTwo {
+  transform: translateX(15px);
+}
+.optionName {
+  color: rgb(185, 185, 185);
+  font-size: 12px;
+}
+.active {
+  color: rgba(0, 0, 0, 0.8);
+  transition-delay: 0.2s;
+}
+
+@media (max-width: 540px) {
+  .toggleBlock {
+    position: absolute;
+    top: 90%;
+    left: 50px;
+  }
+}

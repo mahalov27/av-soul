@@ -1,66 +1,216 @@
 [
   {
     "id": "001",
-    "title": "Portrait",
+    "title": { "ua": "Портрет", "eng": "Portrait" },
     "price": 100,
     "listItems": [
-      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
-      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
-      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+      {
+        "id": "01",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "02",
+        "listItem": {
+          "ua": "Дуже дорогий технічний пакет",
+          "eng": "Lorem ipsum dollar opu tech pack"
+        }
+      },
+      {
+        "id": "03",
+        "listItem": {
+          "ua": "Мені дуже потрібен долар",
+          "eng": "Lorem ipsum dollar opu"
+        }
+      },
+      {
+        "id": "04",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "05",
+        "listItem": {
+          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
+          "eng": "Lorem ipsum dollar opu tech cent bold"
+        }
+      }
     ],
     "src": "./pricesPosters/BG_price_portrait.jpg"
   },
   {
     "id": "002",
-    "title": "Family",
+    "title": { "ua": "Сім'я", "eng": "Family" },
     "price": 100,
     "listItems": [
-      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
-      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
-      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+      {
+        "id": "01",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "02",
+        "listItem": {
+          "ua": "Дуже дорогий технічний пакет",
+          "eng": "Lorem ipsum dollar opu tech pack"
+        }
+      },
+      {
+        "id": "03",
+        "listItem": {
+          "ua": "Мені дуже потрібен долар",
+          "eng": "Lorem ipsum dollar opu"
+        }
+      },
+      {
+        "id": "04",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "05",
+        "listItem": {
+          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
+          "eng": "Lorem ipsum dollar opu tech cent bold"
+        }
+      }
     ],
     "src": "./pricesPosters/BG_price_family.jpg"
   },
   {
     "id": "003",
-    "title": "Love Story",
+    "title": { "ua": "Закоханi", "eng": "Love story" },
     "price": 100,
     "listItems": [
-      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
-      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
-      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+      {
+        "id": "01",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "02",
+        "listItem": {
+          "ua": "Дуже дорогий технічний пакет",
+          "eng": "Lorem ipsum dollar opu tech pack"
+        }
+      },
+      {
+        "id": "03",
+        "listItem": {
+          "ua": "Мені дуже потрібен долар",
+          "eng": "Lorem ipsum dollar opu"
+        }
+      },
+      {
+        "id": "04",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "05",
+        "listItem": {
+          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
+          "eng": "Lorem ipsum dollar opu tech cent bold"
+        }
+      }
     ],
     "src": "./pricesPosters/BG_price_love_story.jpg"
   },
   {
     "id": "004",
-    "title": "Pregnancy",
+    "title": { "ua": "Вагітність", "eng": "Pregnancy" },
     "price": 100,
     "listItems": [
-      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
-      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
-      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+      {
+        "id": "01",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "02",
+        "listItem": {
+          "ua": "Дуже дорогий технічний пакет",
+          "eng": "Lorem ipsum dollar opu tech pack"
+        }
+      },
+      {
+        "id": "03",
+        "listItem": {
+          "ua": "Мені дуже потрібен долар",
+          "eng": "Lorem ipsum dollar opu"
+        }
+      },
+      {
+        "id": "04",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "05",
+        "listItem": {
+          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
+          "eng": "Lorem ipsum dollar opu tech cent bold"
+        }
+      }
     ],
     "src": "./pricesPosters/BG_price_pregnancy.jpg"
   },
   {
     "id": "005",
-    "title": "Wedding",
+    "title": { "ua": "Весілля", "eng": "Wedding" },
     "price": 100,
     "listItems": [
-      { "id": "01", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "02", "listItem": "Lorem ipsum dollar opu tech pack" },
-      { "id": "03", "listItem": "Lorem ipsum dollar opu" },
-      { "id": "04", "listItem": "Lorem ipsum dollar opu tech" },
-      { "id": "05", "listItem": "Lorem ipsum dollar opu tech cent bold" }
+      {
+        "id": "01",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "02",
+        "listItem": {
+          "ua": "Дуже дорогий технічний пакет",
+          "eng": "Lorem ipsum dollar opu tech pack"
+        }
+      },
+      {
+        "id": "03",
+        "listItem": {
+          "ua": "Мені дуже потрібен долар",
+          "eng": "Lorem ipsum dollar opu"
+        }
+      },
+      {
+        "id": "04",
+        "listItem": {
+          "ua": "Дуже дорогі технології",
+          "eng": "Lorem ipsum dollar opu tech"
+        }
+      },
+      {
+        "id": "05",
+        "listItem": {
+          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
+          "eng": "Lorem ipsum dollar opu tech cent bold"
+        }
+      }
     ],
     "src": "./pricesPosters/BG_price_wedding.jpg"
   }

@@ -1,8 +1,8 @@
 const listenerScroll = (value) => {
-    let a = false;
-    window.pageYOffset < value && (a = false);
-      window.pageYOffset > value && (a = true);
-      return a
+  let isInViewPort = false;
+  window.pageYOffset < value && (isInViewPort = false);
+  window.pageYOffset > value && (isInViewPort = true);
+  return isInViewPort;
 };
 
 export default listenerScroll;

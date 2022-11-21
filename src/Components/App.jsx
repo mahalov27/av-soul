@@ -4,8 +4,8 @@ import { AnimatePresence } from "framer-motion";
 import Layout from "./Layout/Layout";
 
 const AboutMe = lazy(() => import("./Pages/AboutMePage/AboutMePage"));
-const PortfolioPage = lazy(() => import("./Pages/PortfolioPage/PortfolioPage"));
-const CategoryPage = lazy(() => import("./Pages/CategoryPage/CategoryPage"));
+const PortfolioCategoryListPage = lazy(() => import("./Pages/PortfolioCategoryListPage/PortfolioCategoryListPage"));
+const PortfolioCategoryItemsPage = lazy(() => import("./Pages/PortfolioCategoryItemsPage/PortfolioCategoryItemsPage"));
 const PricesPage = lazy(() => import("./Pages/PricesPage/PricesPage"));
 const ContactsPage = lazy(() => import("./Pages/ContactsPage/ContactsPage"));
 const NotPage = lazy(() => import("./Pages/NotPage/NotPage"));
@@ -18,8 +18,8 @@ const App = () => {
         <Routes key={location.pathname} location={location}>
           <Route path="/" element={<Layout />}>
             <Route index element={<AboutMe />} />
-            <Route path="portfolio" element={<PortfolioPage />} />
-            <Route path="portfolio/:category" element={<CategoryPage />} />
+            <Route path="portfolio" element={<PortfolioCategoryListPage />} />
+            <Route path="portfolio/:category" element={<PortfolioCategoryItemsPage />} />
             <Route path="prices" element={<PricesPage />} />
             <Route path="contacts" element={<ContactsPage />} />
             <Route path="*" element={<NotPage />} />
