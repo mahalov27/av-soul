@@ -15,7 +15,7 @@ const ArrowToUp = () => {
         <a href="#up-page">
           <img
             className={styles.iconArrow}
-            src="/icons/up-arrow.png"
+            src="/images/icons/up-arrow.png"
             alt="Arrow to up"
           />
         </a>

@@ -1,6 +1,24 @@
+.titleBlock{
+    position: relative;
+    max-height: 37px;
+    margin-bottom: 35px;
+}
+.linkToBack{
+    position: absolute;
+    height: 15px;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+    text-decoration: none;  
+    cursor: pointer;
+    transition: 0.5s;
+}
+.linkToBack:hover{
+    rotate: -90deg;
+    opacity: 0.5;
+}
 .title{
     text-align: center;
-    margin-bottom: 20px;
     font-weight: 400;
     opacity: 0.7;
 }

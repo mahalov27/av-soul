@@ -29,7 +29,7 @@ const Header = () => {
     <header className={styles.header} id="up-page">
       <div className={styles.logo}>
         <Link className={styles.logoLink} to="/">
-          <img className={styles.logoImg} src="/icons/Logo.png" alt="logo" />
+          <img className={styles.logoImg} src="/images/icons/Logo.png" alt="logo" />
         </Link>
       </div>
       <div className={styles.navMobile} onClick={handleClick}>

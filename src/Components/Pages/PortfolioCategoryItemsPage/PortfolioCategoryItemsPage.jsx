@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Masonry from "react-masonry-css";
 import PagesAnimated from "../../PagesAnimated/PagesAnimated";
@@ -10,6 +10,8 @@ import styles from "./PortfolioCategoryItemsPage.module.css";
 const CategoryPage = () => {
   const { category } = useParams();
   const actualityLaguage = useSelector((state) => state.myLanguage);
+  const navigate = useNavigate();
+  const location = useLocation();
   const [list, setList] = useState(0);
   const [indexImages, setIndexImages] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -62,9 +64,17 @@ const CategoryPage = () => {
     }
   };
 
+  const handleGoToBack = () => {
+    const hash = location.hash.length;
+    navigate(hash > 0 ? -2 : -1);
+  };
+
   return (
     <PagesAnimated>
-      <h1 className={styles.title}>{getTitle()}</h1>
+      <div className={styles.titleBlock}>
+        <img src="/images/icons/up-arrow.png" className={styles.linkToBack} onClick={handleGoToBack} alt={actualityLaguage.ua ? "Посилання назад" : "Link to back"}/>
+        <h1 className={styles.title}>{getTitle()}</h1>
+      </div>
       {list.length === 0 && <p>not found images</p>}
       <div className={styles.list}>
         <Masonry

@@ -19,7 +19,7 @@ const Footer = () => {
             >
               <img
                 className={styles.networkIcon}
-                src="/icons/instagram.png"
+                src="/images/icons/instagram.png"
                 alt="link_instagram"
               />
             </a>
@@ -32,7 +32,7 @@ const Footer = () => {
             >
               <img
                 className={styles.networkIcon}
-                src="/icons/facebook.png"
+                src="/images/icons/facebook.png"
                 alt="link_facebook"
               />
             </a>
@@ -45,7 +45,7 @@ const Footer = () => {
             >
               <img
                 className={styles.networkIcon}
-                src="/icons/telegram.png"
+                src="/images/icons/telegram.png"
                 alt="link_telegram"
               />
             </a>

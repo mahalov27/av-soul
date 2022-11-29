@@ -22,7 +22,7 @@ const ContactsPage = () => {
     <PagesAnimated>
       <div className={styles.contactsBlock}>
         <img
-          src="https://c.wallhere.com/photos/e4/b2/couple_forest_grass_trees_date-663691.jpg!d"
+          src="/images/DSC01763.jpeg"
           className={styles.img}
           alt="poster"
         />
@@ -38,7 +38,7 @@ const ContactsPage = () => {
             href="mailto: sasha.volyuvach@gmail.com"
             className={styles.link}
           >
-            <img src="/icons/mail.png" className={styles.icon}  alt="mial icon"/>
+            <img src="/images/icons/mail.png" className={styles.icon}  alt="mial icon"/>
             <span className={styles.text}>sasha.volyuvach@gmail.com</span>
           </motion.a>
           <motion.a
@@ -47,7 +47,7 @@ const ContactsPage = () => {
             href="tel: +380995390818"
             className={styles.link}
           >
-            <img src="/icons/phone.png" className={styles.icon} alt="phone icon"/>
+            <img src="/images/icons/phone.png" className={styles.icon} alt="phone icon"/>
             <span className={styles.text}>+380995390818</span>
           </motion.a>
           <motion.ul
@@ -67,7 +67,7 @@ const ContactsPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/icons/instagram.png" className={styles.icon}  alt="facebook icon"/>
+                <img src="/images/icons/instagram.png" className={styles.icon}  alt="facebook icon"/>
                 <span className={styles.text}>Instagram</span>
               </a>
             </motion.li>
@@ -82,7 +82,7 @@ const ContactsPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/icons/facebook.png" className={styles.icon}  alt="facebook icon"/>
+                <img src="/images/icons/facebook.png" className={styles.icon}  alt="facebook icon"/>
                 <span className={styles.text}>Facebook</span>
               </a>
             </motion.li>
@@ -97,7 +97,7 @@ const ContactsPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/icons/telegram.png" className={styles.icon}  alt="telegram icon"/>
+                <img src="/images/icons/telegram.png" className={styles.icon}  alt="telegram icon"/>
                 <span className={styles.text}>Telegram</span>
               </a>
             </motion.li>

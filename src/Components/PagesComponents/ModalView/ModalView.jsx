@@ -30,7 +30,7 @@ const ModalView = (props) => {
     <div className={styles.modal}>
       <button type="button" className={styles.btn} onClick={previousIndex}>
         <img
-          src="/icons/arrow.png"
+          src="/images/icons/arrow.png"
           className={styles.img}
           alt="button to previous"  
         />
@@ -42,7 +42,7 @@ const ModalView = (props) => {
       />
       <button type="button" className={styles.btn + " " + styles.nextBtn} onClick={nextIndex}>
         <img
-          src="/icons/arrow.png"
+          src="/images/icons/arrow.png"
           className={styles.img}
           alt="button to next"
         />
@@ -52,7 +52,7 @@ const ModalView = (props) => {
         className={styles.closeBtn + " " + styles.btn}
         onClick={func}
       >
-        <img src="/icons/close.png" alt="close button" className={styles.img} />
+        <img src="/images/icons/close.png" alt="close button" className={styles.img} />
       </button>
     </div>
   );

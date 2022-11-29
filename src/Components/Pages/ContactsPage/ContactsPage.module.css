@@ -4,8 +4,9 @@
 }
 .img{
     width: 50%;
-    height: 650px;
+    height: 700px;
     object-fit: cover;
+    object-position: 0 65%;
 }
 .listContacts{
     width: 50%;
