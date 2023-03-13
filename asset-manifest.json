@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/av-soul/static/css/main.c6f3fffa.css",
-    "main.js": "/av-soul/static/js/main.ef15a21f.js",
+    "main.js": "/av-soul/static/js/main.bdfe28ff.js",
     "static/js/88.9ba5bab6.chunk.js": "/av-soul/static/js/88.9ba5bab6.chunk.js",
     "static/css/527.16892e9b.chunk.css": "/av-soul/static/css/527.16892e9b.chunk.css",
     "static/js/527.9708e26c.chunk.js": "/av-soul/static/js/527.9708e26c.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/917.fc8b29a6.chunk.js": "/av-soul/static/js/917.fc8b29a6.chunk.js",
     "index.html": "/av-soul/index.html",
     "main.c6f3fffa.css.map": "/av-soul/static/css/main.c6f3fffa.css.map",
-    "main.ef15a21f.js.map": "/av-soul/static/js/main.ef15a21f.js.map",
+    "main.bdfe28ff.js.map": "/av-soul/static/js/main.bdfe28ff.js.map",
     "88.9ba5bab6.chunk.js.map": "/av-soul/static/js/88.9ba5bab6.chunk.js.map",
     "527.16892e9b.chunk.css.map": "/av-soul/static/css/527.16892e9b.chunk.css.map",
     "527.9708e26c.chunk.js.map": "/av-soul/static/js/527.9708e26c.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.c6f3fffa.css",
-    "static/js/main.ef15a21f.js"
+    "static/js/main.bdfe28ff.js"
   ]
 }
