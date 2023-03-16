@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
 import PagesAnimated from "./../../PagesAnimated/PagesAnimated";
@@ -6,8 +6,8 @@ import pricesFeed from "../../../json/pricesFeed.json";
 import styles from "./pricesPage.module.css";
 
 const PricesPage = () => {
-  const [prices, setPrices] = useState(null);
-  const actualityLanguage = useSelector((state) => state.myLanguage);
+  const language = useSelector((state) => state.myLanguage);
+
   const animationCard = {
     hidden: {
       opacity: 0,
@@ -23,17 +23,13 @@ const PricesPage = () => {
     },
   };
 
-  useEffect(() => {
-    setPrices(pricesFeed);
-  }, []);
-
   return (
     <PagesAnimated>
       <ul className={styles.blockPrices}>
-        {prices &&
-          prices.map((price) => {
+        {pricesFeed &&
+          pricesFeed.map((price) => {
             const backgroundStyles = {
-              backgroundImage: `url(${price.src})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + price.src})`,
             };
             return (
               <motion.li
@@ -46,23 +42,31 @@ const PricesPage = () => {
               >
                 <motion.div
                   variants={animationCard}
-                  className={styles.priceCard + " " + styles.left}
+                  className={styles.priceCard}
                 >
                   <h2 className={styles.priceTitle}>
-                    {actualityLanguage.ua ? price.title.ua : price.title.eng}
+                    {price.title[language]}
                   </h2>
-                  <h3 className={styles.price}>
-                    {price.price}$ / 1{" "}
-                    {actualityLanguage.ua ? "година" : "hour"}
-                  </h3>
+                  {price.price && (
+                    <h3 className={styles.price}>
+                      {price.price}$ / 1{" "}
+                      {language === "ua" ? "година" : "hour"}
+                    </h3>
+                  )}
                   <ul className={styles.servicesList}>
                     {price.listItems.map((listitem) => {
-                      return (
+                      return !listitem.isLink ? (
                         <li key={listitem.id} className={styles.serviceItem}>
-                          {actualityLanguage.ua
-                            ? listitem.listItem.ua
-                            : listitem.listItem.eng}
+                          {listitem.listItem[language]}
                         </li>
+                      ) : (
+                        <Link
+                          key={listitem.id}
+                          to={listitem.id}
+                          className={styles.price + " " + styles.links}
+                        >
+                          {listitem.listItem[language]}
+                        </Link>
                       );
                     })}
                   </ul>

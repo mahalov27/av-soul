@@ -13,10 +13,9 @@
 }
 .navUp.arrowUp {
   opacity: 1;
-  transition: 1s;
 }
 .navUp.arrowUp:hover {
   opacity: 1;
   transform: scale(1.2);
-  transition: 0.8s;
+  transition: var(--transition-hover);
 }

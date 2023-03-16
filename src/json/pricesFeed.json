@@ -2,41 +2,62 @@
   {
     "id": "001",
     "title": { "ua": "Портрет", "eng": "Portrait" },
-    "price": 100,
+    "price": 60,
     "listItems": [
       {
         "id": "01",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Фотосесія в студії/на вулиці",
+          "eng": "Photo session in the studio/on the street"
         }
       },
       {
         "id": "02",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогий технічний пакет",
-          "eng": "Lorem ipsum dollar opu tech pack"
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
         }
       },
       {
         "id": "03",
+        "isLink": false,
         "listItem": {
-          "ua": "Мені дуже потрібен долар",
-          "eng": "Lorem ipsum dollar opu"
+          "ua": "Серія зі 100 фото в обробці",
+          "eng": "A series of 100 photos in processing"
         }
       },
       {
         "id": "04",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Один відеопортрет",
+          "eng": "One video portrait"
         }
       },
       {
         "id": "05",
+        "isLink": false,
         "listItem": {
-          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
-          "eng": "Lorem ipsum dollar opu tech cent bold"
+          "ua": "Перші 10 фото протягом 1-2 днів після зйомки",
+          "eng": "The first 10 photos within 2-3 days after the shooting"
+        }
+      },
+      {
+        "id": "06",
+        "isLink": false,
+        "listItem": {
+          "ua": "Терміни обробки 3-4 тижні",
+          "eng": "Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "07",
+        "isLink": false,
+        "listItem": {
+          "ua": "Фото та відео віддаються в електронному вигляді",
+          "eng": "Photos and videos are submitted electronically"
         }
       }
     ],
@@ -45,41 +66,70 @@
   {
     "id": "002",
     "title": { "ua": "Сім'я", "eng": "Family" },
-    "price": 100,
+    "price": 80,
     "listItems": [
       {
         "id": "01",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Фотосесія в студії/на вулиці",
+          "eng": "Photo session in the studio/on the street"
         }
       },
       {
         "id": "02",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогий технічний пакет",
-          "eng": "Lorem ipsum dollar opu tech pack"
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
         }
       },
       {
         "id": "03",
+        "isLink": false,
         "listItem": {
-          "ua": "Мені дуже потрібен долар",
-          "eng": "Lorem ipsum dollar opu"
+          "ua": "Серія зі 100 фото в обробці",
+          "eng": "A series of 100 photos in processing"
         }
       },
       {
         "id": "04",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Кілька відеопортретів",
+          "eng": "Several video portraits"
         }
       },
       {
         "id": "05",
+        "isLink": false,
         "listItem": {
-          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
-          "eng": "Lorem ipsum dollar opu tech cent bold"
+          "ua": "Фотодрук 20 фото розміром 10х15",
+          "eng": "Photo printing of 20 photos, size 10x15"
+        }
+      },
+      {
+        "id": "06",
+        "isLink": false,
+        "listItem": {
+          "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
+          "eng": "The first 10 photos within 2-3 days after the shooting"
+        }
+      },
+      {
+        "id": "07",
+        "isLink": false,
+        "listItem": {
+          "ua": "Терміни обробки 3-4 тижні",
+          "eng": "Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "08",
+        "isLink": false,
+        "listItem": {
+          "ua": "Фото та відео віддаються в електронному вигляді",
+          "eng": "Photos and videos are submitted electronically"
         }
       }
     ],
@@ -88,41 +138,70 @@
   {
     "id": "003",
     "title": { "ua": "Закоханi", "eng": "Love story" },
-    "price": 100,
+    "price": 70,
     "listItems": [
       {
         "id": "01",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Фотосесія в студії/на вулиці",
+          "eng": "Photo session in the studio/on the street"
         }
       },
       {
         "id": "02",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогий технічний пакет",
-          "eng": "Lorem ipsum dollar opu tech pack"
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
         }
       },
       {
         "id": "03",
+        "isLink": false,
         "listItem": {
-          "ua": "Мені дуже потрібен долар",
-          "eng": "Lorem ipsum dollar opu"
+          "ua": "Серія зі 100 фото в обробці",
+          "eng": "A series of 100 photos in processing"
         }
       },
       {
         "id": "04",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Кілька відеопортретів",
+          "eng": "Several video portraits"
         }
       },
       {
         "id": "05",
+        "isLink": false,
         "listItem": {
-          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
-          "eng": "Lorem ipsum dollar opu tech cent bold"
+          "ua": "Фотодрук 20 фото розміром 10х15",
+          "eng": "Photo printing of 20 photos, size 10x15"
+        }
+      },
+      {
+        "id": "06",
+        "isLink": false,
+        "listItem": {
+          "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
+          "eng": "The first 10 photos within 2-3 days after the shooting"
+        }
+      },
+      {
+        "id": "07",
+        "isLink": false,
+        "listItem": {
+          "ua": "Терміни обробки 3-4 тижні",
+          "eng": "Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "08",
+        "isLink": false,
+        "listItem": {
+          "ua": "Фото та відео віддаються в електронному вигляді",
+          "eng": "Photos and videos are submitted electronically"
         }
       }
     ],
@@ -131,41 +210,70 @@
   {
     "id": "004",
     "title": { "ua": "Вагітність", "eng": "Pregnancy" },
-    "price": 100,
+    "price": 70,
     "listItems": [
       {
         "id": "01",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Фотосесія в студії/на вулиці",
+          "eng": "Photo session in the studio/on the street"
         }
       },
       {
         "id": "02",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогий технічний пакет",
-          "eng": "Lorem ipsum dollar opu tech pack"
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
         }
       },
       {
         "id": "03",
+        "isLink": false,
         "listItem": {
-          "ua": "Мені дуже потрібен долар",
-          "eng": "Lorem ipsum dollar opu"
+          "ua": "Серія зі 100 фото в обробці",
+          "eng": "A series of 100 photos in processing"
         }
       },
       {
         "id": "04",
+        "isLink": false,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Кілька відеопортретів",
+          "eng": "Several video portraits"
         }
       },
       {
         "id": "05",
+        "isLink": false,
         "listItem": {
-          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
-          "eng": "Lorem ipsum dollar opu tech cent bold"
+          "ua": "Фотодрук 20 фото розміром 10х15",
+          "eng": "Photo printing of 20 photos, size 10x15"
+        }
+      },
+      {
+        "id": "06",
+        "isLink": false,
+        "listItem": {
+          "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
+          "eng": "The first 10 photos within 2-3 days after the shooting"
+        }
+      },
+      {
+        "id": "07",
+        "isLink": false,
+        "listItem": {
+          "ua": "Терміни обробки 3-4 тижні",
+          "eng": "Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "08",
+        "isLink": false,
+        "listItem": {
+          "ua": "Фото та відео віддаються в електронному вигляді",
+          "eng": "Photos and videos are submitted electronically"
         }
       }
     ],
@@ -174,41 +282,30 @@
   {
     "id": "005",
     "title": { "ua": "Весілля", "eng": "Wedding" },
-    "price": 100,
+    "price": false,
     "listItems": [
       {
         "id": "01",
+        "isLink": true,
         "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
+          "ua": "Пакет послуг «Лайт» 300 $",
+          "eng": "Package of services «Lite» 300 $"
         }
       },
       {
         "id": "02",
+        "isLink": true,
         "listItem": {
-          "ua": "Дуже дорогий технічний пакет",
-          "eng": "Lorem ipsum dollar opu tech pack"
+          "ua": "Пакет послуг «Стандарт» 500 $",
+          "eng": "Package of services «Standard» 500 $"
         }
       },
       {
         "id": "03",
+        "isLink": true,
         "listItem": {
-          "ua": "Мені дуже потрібен долар",
-          "eng": "Lorem ipsum dollar opu"
-        }
-      },
-      {
-        "id": "04",
-        "listItem": {
-          "ua": "Дуже дорогі технології",
-          "eng": "Lorem ipsum dollar opu tech"
-        }
-      },
-      {
-        "id": "05",
-        "listItem": {
-          "ua": "Сам долар вартий технологічного цента, виділений жирним шрифтом",
-          "eng": "Lorem ipsum dollar opu tech cent bold"
+          "ua": "Пакет послуг «Максимальний» 800 $",
+          "eng": "Package of services «Maximum» 800 $"
         }
       }
     ],

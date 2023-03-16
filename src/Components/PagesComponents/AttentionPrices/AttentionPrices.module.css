@@ -1,0 +1,7 @@
+.list{
+    list-style: none;
+}
+.listItem{
+    font-size: 13px;
+    line-height: 30px;
+}

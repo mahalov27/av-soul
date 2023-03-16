@@ -373,7 +373,7 @@
     "src": "/images/portfolio/DSC09287.jpeg",
     "category": "portraits",
     "alt": {
-      "ua": "/imagesПортрет дівчини",
+      "ua": "//imagesПортрет дівчини",
       "eng": "Portrait of girl"
     }
   },
@@ -679,7 +679,7 @@
     "src": "/images/portfolio/IMG_4707-1.JPG",
     "category": "family_&_pregnancy",
     "alt": {
-      "ua": "/imagesPortrait of family",
+      "ua": "//imagesPortrait of family",
       "eng": "Портрет сім'ї"
     }
   },

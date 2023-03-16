@@ -1,48 +1,40 @@
 import { useState, useEffect } from "react";
+import { nextIndex, prevIndex} from "../../services/indexCounter.js"
 import styles from "./ModalView.module.css";
 
 const ModalView = (props) => {
   const { list, func, idx } = props;
   const [indexImages, setIndexImages] = useState(0);
-  const index = Number(indexImages);
 
   useEffect(() => {
-    setIndexImages(idx);
+    setIndexImages(Number(idx));
   }, [idx]);
 
-  const previousIndex = () => {
-    if (index > 0) {
-      setIndexImages(String(index - 1));
-    } else {
-      setIndexImages(String(list.length - 1));
-    }
+  const toNextIndex = () => {
+    setIndexImages(nextIndex(list.length, indexImages))
   };
 
-  const nextIndex = () => {
-    if (index < list.length - 1) {
-      setIndexImages(String(index + 1));
-    } else {
-      setIndexImages("0");
-    }
+  const topPrevIndex = () => {
+    setIndexImages(prevIndex(list.length, indexImages))
   };
 
   return (
     <div className={styles.modal}>
-      <button type="button" className={styles.btn} onClick={previousIndex}>
+      <button type="button" className={styles.btn} onClick={topPrevIndex}>
         <img
-          src="/images/icons/arrow.png"
+          src={process.env.PUBLIC_URL + '/images/icons/arrow.png'}
           className={styles.img}
           alt="button to previous"  
         />
       </button>
       <img
-        src={list[indexImages].src}
+        src={process.env.PUBLIC_URL + list[indexImages].src}
         alt={list[indexImages].alt.ua}
         className={styles.viewImg}
       />
-      <button type="button" className={styles.btn + " " + styles.nextBtn} onClick={nextIndex}>
+      <button type="button" className={styles.btn + " " + styles.nextBtn} onClick={toNextIndex}>
         <img
-          src="/images/icons/arrow.png"
+          src={process.env.PUBLIC_URL + '/images/icons/arrow.png'}
           className={styles.img}
           alt="button to next"
         />
@@ -52,7 +44,7 @@ const ModalView = (props) => {
         className={styles.closeBtn + " " + styles.btn}
         onClick={func}
       >
-        <img src="/images/icons/close.png" alt="close button" className={styles.img} />
+        <img src={process.env.PUBLIC_URL + '/images/icons/close.png'} alt="close button" className={styles.img} />
       </button>
     </div>
   );

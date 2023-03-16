@@ -1,0 +1,182 @@
+[
+    {
+        "id": "01",
+        "price": 300,
+        "poster": "/images/pricesDetailsPosters/bg_lite.jpg",
+        "title": {
+            "ua": "Пакет послуг «Лайт»",
+            "eng": "Package of services «Lite»"
+        },
+        "listItems": [
+            {
+                "id": "01",
+                "listitem": {
+                    "ua": "Знайомство, попередня консультація",
+                    "eng": "Acquaintance, preliminary consultation"
+                }
+            },
+            {
+                "id": "02",
+                "listitem": {
+                    "ua": "4 години зйомки",
+                    "eng": "4 hours of shooting"
+                }
+            },
+            {
+                "id": "03",
+                "listitem": {
+                    "ua": "Cерія із 500 фотографій в обробці",
+                    "eng": "A series of 500 photos in processing"
+                }
+            },
+            {
+                "id": "04",
+                "listitem": {
+                    "ua": "Aнонс з 10-15 фото протягом тижня після весілля",
+                    "eng": "An announcement with 10-15 photos during the week after the wedding"
+                }
+            },
+            {
+                "id": "05",
+                "listitem": {
+                    "ua": "Фотодрук 20 фото розміром 15х21",
+                    "eng": "Photo printing of 20 photos, size 15x21"
+                }
+            },
+            {
+                "id": "06",
+                "listitem": {
+                    "ua": "Всі фото віддаю на USB носії",
+                    "eng": "I give all the photos on a USB drive"
+                }
+            },
+            {
+                "id": "07",
+                "listitem": {
+                    "ua": " Термін обробки 2 місяці",
+                    "eng": "Processing time is 2 months"
+                }
+            }
+        ]
+    },
+    {
+        "id": "02",
+        "price": 500,
+        "poster": "/images/pricesDetailsPosters/bg_standart.jpg",
+        "title": {
+            "ua": "Пакет послуг «Стандарт»",
+            "eng": "Package of services «Standard»"
+        },
+        "listItems": [
+            {
+                "id": "01",
+                "listitem": {
+                    "ua": "Знайомство, попередня консультація",
+                    "eng": "Acquaintance, preliminary consultation"
+                }
+            },
+            {
+                "id": "02",
+                "listitem": {
+                    "ua": "8 години зйомки",
+                    "eng": "8 hours of shooting"
+                }
+            },
+            {
+                "id": "03",
+                "listitem": {
+                    "ua": "Cерія із 1000 фотографій в обробці",
+                    "eng": "A series of 1000 photos in processing"
+                }
+            },
+            {
+                "id": "04",
+                "listitem": {
+                    "ua": "Aнонс з 10-15 фото протягом тижня після весілля",
+                    "eng": "An announcement with 10-15 photos during the week after the wedding"
+                }
+            },
+            {
+                "id": "05",
+                "listitem": {
+                    "ua": "Фотодрук 30 фото розміром 15х21",
+                    "eng": "Photo printing of 30 photos, size 15x21"
+                }
+            },
+            {
+                "id": "06",
+                "listitem": {
+                    "ua": "Всі фото віддаю на USB носії",
+                    "eng": "I give all the photos on a USB drive"
+                }
+            },
+            {
+                "id": "07",
+                "listitem": {
+                    "ua": " Термін обробки 3 місяці",
+                    "eng": "Processing time is 3 months"
+                }
+            }
+        ]
+    },
+    {
+        "id": "03",
+        "price": 800,
+        "poster": "/images/pricesDetailsPosters/bg_max.jpg",
+        "title": {
+            "ua": "Пакет послуг «Максимальний»",
+            "eng": "Package of services «Maximum»"
+        },
+        "listItems": [
+            {
+                "id": "01",
+                "listitem": {
+                    "ua": "Знайомство, попередня консультація",
+                    "eng": "Acquaintance, preliminary consultation"
+                }
+            },
+            {
+                "id": "02",
+                "listitem": {
+                    "ua": "12 години зйомки",
+                    "eng": "12 hours of shooting"
+                }
+            },
+            {
+                "id": "03",
+                "listitem": {
+                    "ua": "Cерія із 1500 фотографій в обробці",
+                    "eng": "A series of 1500 photos in processing"
+                }
+            },
+            {
+                "id": "04",
+                "listitem": {
+                    "ua": "Aнонс з 15-20 фото протягом тижня після весілля",
+                    "eng": "An announcement with 10-15 photos during the week after the wedding"
+                }
+            },
+            {
+                "id": "05",
+                "listitem": {
+                    "ua": "Фотокнига 25х25, на 20 розворотів",
+                    "eng": "Photo book 25x25, on 20 spreads"
+                }
+            },
+            {
+                "id": "06",
+                "listitem": {
+                    "ua": "Всі фото віддаю на USB носії",
+                    "eng": "I give all the photos on a USB drive"
+                }
+            },
+            {
+                "id": "07",
+                "listitem": {
+                    "ua": " Термін обробки 3 місяці",
+                    "eng": "Processing time is 3 months"
+                }
+            }
+        ]
+    }
+]

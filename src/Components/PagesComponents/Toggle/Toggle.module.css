@@ -29,15 +29,15 @@
   transform: translateX(15px);
 }
 .optionName {
-  color: rgb(185, 185, 185);
+  color: var(--text-color-2);
   font-size: 12px;
 }
 .active {
-  color: rgba(0, 0, 0, 0.8);
+  color: var(--text-color-1);
   transition-delay: 0.2s;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 555px) {
   .toggleBlock {
     position: absolute;
     top: 90%;

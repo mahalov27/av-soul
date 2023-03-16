@@ -8,7 +8,7 @@ import styles from "./header.module.css";
 const Header = () => {
   const [fixedNavigation, setFixedNavigation] = useState(false);
   const [mobileNavigation, setMobileNovigation] = useState(false);
-  const languageNow = useSelector((state) => state.myLanguage);
+  const language = useSelector((state) => state.myLanguage);
 
   useEffect(() => {
     const value = 180;
@@ -22,14 +22,14 @@ const Header = () => {
     const screenWidth = window.innerWidth;
 
     !mobileNavigation ? setMobileNovigation(true) : setMobileNovigation(false);
-    screenWidth <= 540 && body.classList.toggle("desableScroll");
+    screenWidth <= 555 && body.classList.toggle("desableScroll");
   };
 
   return (
     <header className={styles.header} id="up-page">
       <div className={styles.logo}>
-        <Link className={styles.logoLink} to="/">
-          <img className={styles.logoImg} src="/images/icons/Logo.png" alt="logo" />
+        <Link to="/">
+          <img className={styles.logoImg} src={process.env.PUBLIC_URL + '/images/icons/Logo.png'} alt="logo" />
         </Link>
       </div>
       <div className={styles.navMobile} onClick={handleClick}>
@@ -53,22 +53,22 @@ const Header = () => {
         <ul className={styles.navList}>
           <li className={styles.navItem} onClick={handleClick}>
             <NavLink to="/" className={styles.navLink} end>
-              {!languageNow.ua ? "About me" : "Про мене"}
+              {language === 'ua' ? "Про мене" : "About me"}
             </NavLink>
           </li>
           <li className={styles.navItem} onClick={handleClick}>
             <NavLink to="portfolio" className={styles.navLink}>
-              {!languageNow.ua ? "Portfolio" : "Портфоліо"}
+              {language === 'ua' ? "Портфоліо" : "Portfolio"}
             </NavLink>
           </li>
           <li className={styles.navItem} onClick={handleClick}>
             <NavLink to="prices" className={styles.navLink}>
-              {!languageNow.ua ? "Prices" : "Ціни"}
+              {language === 'ua' ? "Ціни" : "Prices"}
             </NavLink>
           </li>
           <li className={styles.navItem} onClick={handleClick}>
             <NavLink to="contacts" className={styles.navLink}>
-              {!languageNow.ua ? "Contacts" : "Контакти"}
+              {language === 'ua' ? "Контакти" : "Contacts"}
             </NavLink>
           </li>
         </ul>

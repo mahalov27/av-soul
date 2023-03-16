@@ -7,7 +7,7 @@ const Footer = () => {
         <h4 className={styles.titleNetwork}>
           Мої соціальні мережі |
           <span className={styles.titleSpan}>
-            <span className={styles.bottomLineSpan}>_</span>My social networks
+            My social networks
           </span>
         </h4>
         <ul className={styles.networkList}>
@@ -19,7 +19,7 @@ const Footer = () => {
             >
               <img
                 className={styles.networkIcon}
-                src="/images/icons/instagram.png"
+                src={process.env.PUBLIC_URL + '/images/icons/instagram.png'}
                 alt="link_instagram"
               />
             </a>
@@ -32,7 +32,7 @@ const Footer = () => {
             >
               <img
                 className={styles.networkIcon}
-                src="/images/icons/facebook.png"
+                src={process.env.PUBLIC_URL + '/images/icons/facebook.png'}
                 alt="link_facebook"
               />
             </a>
@@ -45,7 +45,7 @@ const Footer = () => {
             >
               <img
                 className={styles.networkIcon}
-                src="/images/icons/telegram.png"
+                src={process.env.PUBLIC_URL + '/images/icons/telegram.png'}
                 alt="link_telegram"
               />
             </a>

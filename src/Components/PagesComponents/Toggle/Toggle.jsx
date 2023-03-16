@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { language } from "../../../redux/language/languageSlice";
+import { setLanguage } from "../../../redux/language/languageSlice";
 import styles from "./Toggle.module.css";
 
 const Toggle = () => {
@@ -7,17 +7,17 @@ const Toggle = () => {
   const dispatch = useDispatch();
 
   const actionToggle = () => {
-    const langNext = languageNow.ua
-      ? { ua: false, eng: true }
-      : { ua: true, eng: false };
-    dispatch(language(langNext));
-    localStorage.setItem("language", JSON.stringify(langNext));
+    const langNext = languageNow === 'ua'
+      ? 'eng'
+      : 'ua';
+    dispatch(setLanguage(langNext));
+    localStorage.setItem("language", langNext);
   };
 
   return (
     <div className={styles.toggleBlock}>
       <span
-        className={styles.optionName + " " + (languageNow.eng && styles.active)}
+        className={styles.optionName + " " + (languageNow === 'eng' && styles.active)}
       >
         eng
       </span>
@@ -26,13 +26,13 @@ const Toggle = () => {
           className={
             styles.toggleBtn +
             " " +
-            (languageNow.ua && styles.togglePositionTwo)
+            (languageNow === 'ua' && styles.togglePositionTwo)
           }
           onClick={actionToggle}
         ></div>
       </div>
       <span
-        className={styles.optionName + " " + (languageNow.ua && styles.active)}
+        className={styles.optionName + " " + (languageNow === 'ua' && styles.active)}
       >
         ua
       </span>

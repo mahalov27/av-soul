@@ -7,6 +7,7 @@ const AboutMe = lazy(() => import("./Pages/AboutMePage/AboutMePage"));
 const PortfolioCategoryListPage = lazy(() => import("./Pages/PortfolioCategoryListPage/PortfolioCategoryListPage"));
 const PortfolioCategoryItemsPage = lazy(() => import("./Pages/PortfolioCategoryItemsPage/PortfolioCategoryItemsPage"));
 const PricesPage = lazy(() => import("./Pages/PricesPage/PricesPage"));
+const PriceDetailsPage = lazy(() => import("./Pages/PriceDetailsPage/PriceDetailsPage"))
 const ContactsPage = lazy(() => import("./Pages/ContactsPage/ContactsPage"));
 const NotPage = lazy(() => import("./Pages/NotPage/NotPage"));
 
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="portfolio" element={<PortfolioCategoryListPage />} />
             <Route path="portfolio/:category" element={<PortfolioCategoryItemsPage />} />
             <Route path="prices" element={<PricesPage />} />
+            <Route path="prices/:id" element={<PriceDetailsPage/>} />
             <Route path="contacts" element={<ContactsPage />} />
             <Route path="*" element={<NotPage />} />
           </Route>
