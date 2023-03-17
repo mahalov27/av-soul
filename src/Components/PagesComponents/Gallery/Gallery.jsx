@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import portfolioCategiryItemsFeed from "../../../json/portfolioCategiryItemsFeed.json";
 import ModalView from "../ModalView/ModalView";
+import getRandomListItems from "../../services/getRandomListItems";
 import Masonry from "react-masonry-css";
 import styles from "./Gallery.module.css";
 
@@ -18,10 +19,16 @@ const Gallery = ({ category }) => {
   };
 
   useEffect(() => {
-    const list = portfolioCategiryItemsFeed.filter(
-      (item) => item.category === category
-    );
-    setList(list);
+    if(category){
+      const list = portfolioCategiryItemsFeed.filter(
+        (item) => item.category === category
+      );
+      setList(list);
+    }else{
+
+      setList(getRandomListItems(portfolioCategiryItemsFeed))
+      }
+      
   }, [category]);
 
   const handleIsOpenModal = (e) => {
