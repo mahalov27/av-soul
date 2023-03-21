@@ -1,7 +1,7 @@
 .categoryList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 3.44%;
+  grid-column-gap: 1vw;
 }
 .link{
     text-decoration: none;

@@ -72,7 +72,7 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <Toggle />
+          <Toggle />
       </div>
     </header>
   );

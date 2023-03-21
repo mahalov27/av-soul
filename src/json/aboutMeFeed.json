@@ -1,0 +1,18 @@
+{
+    "title": {
+        "ua": "Привіт мене звати Олександра",
+        "eng": "Hi, my name is Oleksandra"
+    },
+    "paragraphOne": {
+        "ua": "Я фотограф з Києва, люблю фотографію за можливість розповідати історії про людей і світ навколо.",
+        "eng": "I am a photographer from Kyiv, I love photography for the opportunity to tell a story about people and the world around."
+    },
+    "paragraphTwo": {
+        "ua": "Мене надихають подорожі, природа, кіно, живопис та щире спілкування.",
+        "eng": "I am inspired by travel, nature, cinema, painting and sincere communication."
+    },
+    "paragraphThree": {
+        "ua": "На цьому сайті Ви можете ознайомитись з моїми роботами та дізнатися більше про те, як я можу допомогти зберегти в пам'яті важливі моменти Вашого життя.",
+        "eng": "On this site, you can familiarize yourself with my works and learn more about how I can help to preserve the important moments of your life in memory."
+    }
+}

@@ -8,14 +8,14 @@
 
 /*========== @media =========*/
 
-@media (max-width: 1469px) {
-  .categoryTextConteiner{
-    padding: 0 10px 3% 10px;
+ @media (max-width: 1469px) {
+  .categoryText{
+    font-size: 17px;
   }
 }
 
 @media (max-width: 555px) {
-  .categoryTextConteiner {
-    padding: 2% 2%;
+  .categoryText{
+    font-size: 16px;
   }
 }

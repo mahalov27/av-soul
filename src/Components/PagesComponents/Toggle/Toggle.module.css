@@ -40,7 +40,7 @@
 @media (max-width: 555px) {
   .toggleBlock {
     position: absolute;
-    top: 90%;
-    left: 50px;
+    top: 5%;
+    left: 30px;
   }
 }

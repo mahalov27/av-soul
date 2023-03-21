@@ -1,7 +1,7 @@
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import PagesAnimated from "../../PagesAnimated/PagesAnimated";
-import title from "../../../json/patrfolioCategoryTitlesFeed.json";
+import vocabulary from "../../../json/patrfolioCategoryTitlesFeed.json";
 import styles from "./PortfolioCategoryItemsPage.module.css";
 import Gallery from "../../PagesComponents/Gallery/Gallery";
 
@@ -21,7 +21,7 @@ const CategoryPage = () => {
     <PagesAnimated>
       <div className={styles.titleBlock}>
         <img src={process.env.PUBLIC_URL + '/images/icons/up-arrow.png'} className={styles.linkToBack} onClick={handleGoToBack} alt={language === "ua" ? "Посилання назад" : "Link to back"}/>
-        <h1 className={styles.title}>{title[category][language]}</h1>
+        <h1 className={styles.title}>{vocabulary[category][language]}</h1>
       </div>
       <Gallery category={category}/>
     </PagesAnimated>
