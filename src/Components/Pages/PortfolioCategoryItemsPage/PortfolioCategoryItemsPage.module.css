@@ -1,28 +1,39 @@
-.titleBlock{
-    position: relative;
-    max-height: 37px;
-    margin-bottom: 35px;
+.titleBlock {
+  position: relative;
+  max-height: 37px;
+  margin-bottom: 35px;
 }
-.linkToBack{
-    position: absolute;
-    height: 15px;
-    left: 0;
-    top: 50%;
-    z-index: 1;
-    text-decoration: none;  
-    cursor: pointer;
-    transition: var(--transition-hover);
+.linkToBack {
+  position: absolute;
+  height: 15px;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition-hover);
 }
-.linkToBack:hover{
+.linkToBack:hover {
+  rotate: -90deg;
+  opacity: 0.5;
+}
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 0.7;
+}
+.title::first-letter {
+  text-transform: uppercase;
+}
+@media (max-width: 1024px) {
+  .linkToBack {
     rotate: -90deg;
-    opacity: 0.5;
+  }
 }
-.title{
-    text-align: center;
-    font-weight: 400;
-    font-size: 24px;
-    opacity: 0.7;
+@media (max-width: 555px) {
+  .titleBlock {
+    margin-bottom: 25px;
+  }
 }
-.title::first-letter{
-    text-transform: uppercase;
-}
+

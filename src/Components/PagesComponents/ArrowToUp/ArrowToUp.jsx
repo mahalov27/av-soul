@@ -1,21 +1,14 @@
 import { useState, useEffect } from "react";
 import listenerScroll from "../../services/listenerScroll";
+import toUpPage from "../../services/toUpPage";
 import styles from "./ArrowToUp.module.css";
 
 const ArrowToUp = () => {
   const [active, setActive] = useState(false);
 
-  useEffect(()=> {
+  useEffect(() => {
     window.addEventListener("scroll", () => setActive(listenerScroll(700)));
-  }, [active])
-  
-
-  const toUpPage = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-    });
-  };
+  }, [active]);
 
   return (
     <>

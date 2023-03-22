@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Layout from "./Layout/Layout";
+import Loader from "./PagesComponents/Loader/Loader";
 
 const AboutMe = lazy(() => import("./Pages/AboutMePage/AboutMePage"));
 const PortfolioCategoryListPage = lazy(() => import("./Pages/PortfolioCategoryListPage/PortfolioCategoryListPage"));
@@ -14,7 +15,7 @@ const NotPage = lazy(() => import("./Pages/NotPage/NotPage"));
 const App = () => {
   const location = useLocation();
   return (
-    <Suspense fallback={<p>Loading...</p>}>
+    <Suspense fallback={<Loader/>}>
       <AnimatePresence mode='wait'>
         <Routes key={location.pathname} location={location}>
           <Route path="/" element={<Layout />}>
