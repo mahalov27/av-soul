@@ -2,7 +2,7 @@
     {
         "id": "01",
         "price": 300,
-        "poster": "/images/pricesDetailsPosters/bg_lite.jpg",
+        "poster": "/images/pricesDetailsPosters/bg_lite.webp",
         "title": {
             "ua": "Пакет послуг «Лайт»",
             "eng": "Package of services «Lite»"
@@ -62,7 +62,7 @@
     {
         "id": "02",
         "price": 500,
-        "poster": "/images/pricesDetailsPosters/bg_standart.jpg",
+        "poster": "/images/pricesDetailsPosters/bg_standart.webp",
         "title": {
             "ua": "Пакет послуг «Стандарт»",
             "eng": "Package of services «Standard»"
@@ -122,7 +122,7 @@
     {
         "id": "03",
         "price": 800,
-        "poster": "/images/pricesDetailsPosters/bg_max.jpg",
+        "poster": "/images/pricesDetailsPosters/bg_max.webp",
         "title": {
             "ua": "Пакет послуг «Максимальний»",
             "eng": "Package of services «Maximum»"

@@ -10,7 +10,7 @@ const AboutMePage = () => {
     <PagesAnimated>
       <div className={styles.blockInfo}>
         <div className={styles.blockImg}>
-          <img src={process.env.PUBLIC_URL + '/images/aboutMePoster/photo_2023-03-18_09-28-08.jpg'} className={styles.img} alt="girl"/>
+          <img src={process.env.PUBLIC_URL + '/images/aboutMePoster/photo_2023-03-18_09-28-08.webp'} className={styles.img} alt="girl"/>
         </div>
         <div className={styles.text}>
           <h2>{vocabulary.title[language]}</h2>

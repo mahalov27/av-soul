@@ -5,6 +5,7 @@ import styles from "./ModalView.module.css";
 const ModalView = (props) => {
   const { list, func, idx } = props;
   const [indexImages, setIndexImages] = useState(0);
+  const [startX, setStartX] = useState(0)
 
   useEffect(() => {
     setIndexImages(Number(idx));
@@ -14,13 +15,26 @@ const ModalView = (props) => {
     setIndexImages(nextIndex(list.length, indexImages))
   };
 
-  const topPrevIndex = () => {
+  const toPrevIndex = () => {
     setIndexImages(prevIndex(list.length, indexImages))
   };
 
+  const testOnDrag = (e) => {
+     const endX = e.clientX;
+     if (endX > startX) {
+      toPrevIndex()
+    } else if (endX < startX) {
+      toNextIndex()
+    }
+  }
+
+  const testStartX = (e) => {
+    setStartX(e.clientX)
+  }
+
   return (
     <div className={styles.modal}>
-      <button type="button" className={styles.btn} onClick={topPrevIndex}>
+      <button type="button" className={styles.btn} onClick={toPrevIndex}>
         <img
           src={process.env.PUBLIC_URL + '/images/icons/arrow.png'}
           className={styles.img}
@@ -31,6 +45,8 @@ const ModalView = (props) => {
         src={process.env.PUBLIC_URL + list[indexImages].src}
         alt={list[indexImages].alt.ua}
         className={styles.viewImg}
+        onDragEnd={testOnDrag}
+        onDragStart={testStartX}
       />
       <button type="button" className={styles.btn + " " + styles.nextBtn} onClick={toNextIndex}>
         <img

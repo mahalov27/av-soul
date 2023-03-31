@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "src": "/images/portfolio/DSC00089.jpeg",
+    "src": "/images/portfolio/DSC00089.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -10,7 +10,7 @@
   },
   {
     "id": "02",
-    "src": "/images/portfolio/DSC00510.jpeg",
+    "src": "/images/portfolio/DSC00510.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -19,7 +19,7 @@
   },
   {
     "id": "03",
-    "src": "/images/portfolio/DSC00613.jpeg",
+    "src": "/images/portfolio/DSC00613.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -28,7 +28,7 @@
   },
   {
     "id": "04",
-    "src": "/images/portfolio/DSC02365.jpeg",
+    "src": "/images/portfolio/DSC02365.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -37,7 +37,7 @@
   },
   {
     "id": "05",
-    "src": "/images/portfolio/DSC02516.jpeg",
+    "src": "/images/portfolio/DSC02516.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -46,7 +46,7 @@
   },
   {
     "id": "06",
-    "src": "/images/portfolio/DSC02565.jpeg",
+    "src": "/images/portfolio/DSC02565.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -55,7 +55,7 @@
   },
   {
     "id": "07",
-    "src": "/images/portfolio/DSC02610.jpeg",
+    "src": "/images/portfolio/DSC02610.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -64,7 +64,7 @@
   },
   {
     "id": "08",
-    "src": "/images/portfolio/DSC03001.jpeg",
+    "src": "/images/portfolio/DSC03001.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -73,7 +73,7 @@
   },
   {
     "id": "09",
-    "src": "/images/portfolio/DSC03005.jpeg",
+    "src": "/images/portfolio/DSC03005.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -82,7 +82,7 @@
   },
   {
     "id": "10",
-    "src": "/images/portfolio/DSC03697.jpeg",
+    "src": "/images/portfolio/DSC03697.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -91,7 +91,7 @@
   },
   {
     "id": "11",
-    "src": "/images/portfolio/DSC03739.jpeg",
+    "src": "/images/portfolio/DSC03739.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -100,7 +100,7 @@
   },
   {
     "id": "12",
-    "src": "/images/portfolio/DSC03844.jpeg",
+    "src": "/images/portfolio/DSC03844.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -109,7 +109,7 @@
   },
   {
     "id": "13",
-    "src": "/images/portfolio/DSC03882.jpeg",
+    "src": "/images/portfolio/DSC03882.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -118,7 +118,7 @@
   },
   {
     "id": "14",
-    "src": "/images/portfolio/DSC04177.jpeg",
+    "src": "/images/portfolio/DSC04177.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -127,7 +127,7 @@
   },
   {
     "id": "15",
-    "src": "/images/portfolio/DSC05083.jpeg",
+    "src": "/images/portfolio/DSC05083.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -136,7 +136,7 @@
   },
   {
     "id": "16",
-    "src": "/images/portfolio/DSC05094.jpeg",
+    "src": "/images/portfolio/DSC05094.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -145,7 +145,7 @@
   },
   {
     "id": "17",
-    "src": "/images/portfolio/DSC05104.jpeg",
+    "src": "/images/portfolio/DSC05104.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -154,7 +154,7 @@
   },
   {
     "id": "18",
-    "src": "/images/portfolio/DSC05280-2.jpeg",
+    "src": "/images/portfolio/DSC05280-2.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -163,7 +163,7 @@
   },
   {
     "id": "19",
-    "src": "/images/portfolio/DSC05286.jpeg",
+    "src": "/images/portfolio/DSC05286.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -172,7 +172,7 @@
   },
   {
     "id": "20",
-    "src": "/images/portfolio/DSC05536.jpeg",
+    "src": "/images/portfolio/DSC05536.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -181,7 +181,7 @@
   },
   {
     "id": "21",
-    "src": "/images/portfolio/DSC05570.jpeg",
+    "src": "/images/portfolio/DSC05570.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -190,7 +190,7 @@
   },
   {
     "id": "22",
-    "src": "/images/portfolio/DSC05689.jpeg",
+    "src": "/images/portfolio/DSC05689.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -199,7 +199,7 @@
   },
   {
     "id": "23",
-    "src": "/images/portfolio/DSC05698.jpeg",
+    "src": "/images/portfolio/DSC05698.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -208,7 +208,7 @@
   },
   {
     "id": "24",
-    "src": "/images/portfolio/DSC05757-2.jpeg",
+    "src": "/images/portfolio/DSC05757-2.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -217,7 +217,7 @@
   },
   {
     "id": "25",
-    "src": "/images/portfolio/DSC05825.jpeg",
+    "src": "/images/portfolio/DSC05825.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -226,7 +226,7 @@
   },
   {
     "id": "26",
-    "src": "/images/portfolio/DSC05848.jpeg",
+    "src": "/images/portfolio/DSC05848.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -235,7 +235,7 @@
   },
   {
     "id": "27",
-    "src": "/images/portfolio/DSC06286.jpeg",
+    "src": "/images/portfolio/DSC06286.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -244,7 +244,7 @@
   },
   {
     "id": "28",
-    "src": "/images/portfolio/DSC06660.jpeg",
+    "src": "/images/portfolio/DSC06660.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -253,7 +253,7 @@
   },
   {
     "id": "29",
-    "src": "/images/portfolio/DSC06751.jpeg",
+    "src": "/images/portfolio/DSC06751.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -262,7 +262,7 @@
   },
   {
     "id": "30",
-    "src": "/images/portfolio/DSC06913.jpeg",
+    "src": "/images/portfolio/DSC06913.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -271,7 +271,7 @@
   },
   {
     "id": "31",
-    "src": "/images/portfolio/DSC06949.jpeg",
+    "src": "/images/portfolio/DSC06949.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -280,7 +280,7 @@
   },
   {
     "id": "32",
-    "src": "/images/portfolio/DSC07069.jpeg",
+    "src": "/images/portfolio/DSC07069.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -289,7 +289,7 @@
   },
   {
     "id": "33",
-    "src": "/images/portfolio/DSC07134.jpeg",
+    "src": "/images/portfolio/DSC07134.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -298,7 +298,7 @@
   },
   {
     "id": "34",
-    "src": "/images/portfolio/DSC07138.jpeg",
+    "src": "/images/portfolio/DSC07138.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -307,7 +307,7 @@
   },
   {
     "id": "35",
-    "src": "/images/portfolio/DSC07139.jpeg",
+    "src": "/images/portfolio/DSC07139.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -316,7 +316,7 @@
   },
   {
     "id": "36",
-    "src": "/images/portfolio/DSC07187.jpeg",
+    "src": "/images/portfolio/DSC07187.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -325,7 +325,7 @@
   },
   {
     "id": "37",
-    "src": "/images/portfolio/DSC08337.jpeg",
+    "src": "/images/portfolio/DSC08337.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -334,7 +334,7 @@
   },
   {
     "id": "38",
-    "src": "/images/portfolio/DSC08564.jpeg",
+    "src": "/images/portfolio/DSC08564.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -343,7 +343,7 @@
   },
   {
     "id": "39",
-    "src": "/images/portfolio/DSC09101.jpeg",
+    "src": "/images/portfolio/DSC09101.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -352,7 +352,7 @@
   },
   {
     "id": "40",
-    "src": "/images/portfolio/DSC09111.jpeg",
+    "src": "/images/portfolio/DSC09111.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -361,7 +361,7 @@
   },
   {
     "id": "41",
-    "src": "/images/portfolio/DSC09253.jpeg",
+    "src": "/images/portfolio/DSC09253.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -370,7 +370,7 @@
   },
   {
     "id": "42",
-    "src": "/images/portfolio/DSC09287.jpeg",
+    "src": "/images/portfolio/DSC09287.webp",
     "category": "portraits",
     "alt": {
       "ua": "//imagesПортрет дівчини",
@@ -379,7 +379,7 @@
   },
   {
     "id": "43",
-    "src": "/images/portfolio/DSC09408-2.jpeg",
+    "src": "/images/portfolio/DSC09408-2.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -388,7 +388,7 @@
   },
   {
     "id": "44",
-    "src": "/images/portfolio/DSC09498.jpeg",
+    "src": "/images/portfolio/DSC09498.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -397,7 +397,7 @@
   },
   {
     "id": "45",
-    "src": "/images/portfolio/DSC09965.jpeg",
+    "src": "/images/portfolio/DSC09965.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -406,7 +406,7 @@
   },
   {
     "id": "46",
-    "src": "/images/portfolio/IMG_4391.jpeg",
+    "src": "/images/portfolio/IMG_4391.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -415,7 +415,7 @@
   },
   {
     "id": "47",
-    "src": "/images/portfolio/IMG_5449-2.jpeg",
+    "src": "/images/portfolio/IMG_5449-2.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -424,7 +424,7 @@
   },
   {
     "id": "48",
-    "src": "/images/portfolio/IMG_5768-2.jpeg",
+    "src": "/images/portfolio/IMG_5768-2.webp",
     "category": "portraits",
     "alt": {
       "ua": "Портрет дівчини",
@@ -433,7 +433,7 @@
   },
   {
     "id": "49",
-    "src": "/images/portfolio/photo-output.jpg",
+    "src": "/images/portfolio/photo-output.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -442,7 +442,7 @@
   },
   {
     "id": "50",
-    "src": "/images/portfolio/IMG_4743.JPG",
+    "src": "/images/portfolio/IMG_4743.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -451,7 +451,7 @@
   },
   {
     "id": "51",
-    "src": "/images/portfolio/IMG_4717.JPG",
+    "src": "/images/portfolio/IMG_4717.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -460,7 +460,7 @@
   },
   {
     "id": "52",
-    "src": "/images/portfolio/IMG_4716.JPG",
+    "src": "/images/portfolio/IMG_4716.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -469,7 +469,7 @@
   },
   {
     "id": "53",
-    "src": "/images/portfolio/IMG_4715.JPG",
+    "src": "/images/portfolio/IMG_4715.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -478,7 +478,7 @@
   },
   {
     "id": "54",
-    "src": "/images/portfolio/IMG_4708.JPG",
+    "src": "/images/portfolio/IMG_4708.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -487,7 +487,7 @@
   },
   {
     "id": "55",
-    "src": "/images/portfolio/IMG_0313.jpeg",
+    "src": "/images/portfolio/IMG_0313.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -496,7 +496,7 @@
   },
   {
     "id": "56",
-    "src": "/images/portfolio/DSC09541.jpeg",
+    "src": "/images/portfolio/DSC09541.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -505,7 +505,7 @@
   },
   {
     "id": "57",
-    "src": "/images/portfolio/DSC09424.jpeg",
+    "src": "/images/portfolio/DSC09424.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -514,7 +514,7 @@
   },
   {
     "id": "58",
-    "src": "/images/portfolio/DSC09362.jpeg",
+    "src": "/images/portfolio/DSC09362.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -523,7 +523,7 @@
   },
   {
     "id": "59",
-    "src": "/images/portfolio/DSC09351.jpeg",
+    "src": "/images/portfolio/DSC09351.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -532,7 +532,7 @@
   },
   {
     "id": "60",
-    "src": "/images/portfolio/DSC09347.jpeg",
+    "src": "/images/portfolio/DSC09347.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -541,7 +541,7 @@
   },
   {
     "id": "61",
-    "src": "/images/portfolio/DSC08787.jpeg",
+    "src": "/images/portfolio/DSC08787.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -550,7 +550,7 @@
   },
   {
     "id": "62",
-    "src": "/images/portfolio/DSC08575.jpeg",
+    "src": "/images/portfolio/DSC08575.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -559,7 +559,7 @@
   },
   {
     "id": "63",
-    "src": "/images/portfolio/DSC08466-1.jpeg",
+    "src": "/images/portfolio/DSC08466-1.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -568,7 +568,7 @@
   },
   {
     "id": "64",
-    "src": "/images/portfolio/DSC07258.jpeg",
+    "src": "/images/portfolio/DSC07258.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -577,7 +577,7 @@
   },
   {
     "id": "65",
-    "src": "/images/portfolio/DSC07137.jpeg",
+    "src": "/images/portfolio/DSC07137.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -586,7 +586,7 @@
   },
   {
     "id": "66",
-    "src": "/images/portfolio/DSC06620.jpeg",
+    "src": "/images/portfolio/DSC06620.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -595,7 +595,7 @@
   },
   {
     "id": "67",
-    "src": "/images/portfolio/DSC04150.jpeg",
+    "src": "/images/portfolio/DSC04150.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -604,7 +604,7 @@
   },
   {
     "id": "68",
-    "src": "/images/portfolio/DSC03943-1.jpeg",
+    "src": "/images/portfolio/DSC03943-1.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -613,7 +613,7 @@
   },
   {
     "id": "69",
-    "src": "/images/portfolio/DSC03661.jpeg",
+    "src": "/images/portfolio/DSC03661.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -622,7 +622,7 @@
   },
   {
     "id": "70",
-    "src": "/images/portfolio/DSC03507.jpeg",
+    "src": "/images/portfolio/DSC03507.webp",
     "category": "wedding_&_love_story",
     "alt": {
       "ua": "Портрет закоханих",
@@ -631,7 +631,7 @@
   },
   {
     "id": "71",
-    "src": "/images/portfolio/photo-output-1.JPG",
+    "src": "/images/portfolio/photo-output-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -640,7 +640,7 @@
   },
   {
     "id": "72",
-    "src": "/images/portfolio/IMG_4757-1.JPG",
+    "src": "/images/portfolio/IMG_4757-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -649,7 +649,7 @@
   },
   {
     "id": "73",
-    "src": "/images/portfolio/IMG_4746-1.JPG",
+    "src": "/images/portfolio/IMG_4746-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -658,7 +658,7 @@
   },
   {
     "id": "74",
-    "src": "/images/portfolio/IMG_4744-1.JPG",
+    "src": "/images/portfolio/IMG_4744-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -667,7 +667,7 @@
   },
   {
     "id": "75",
-    "src": "/images/portfolio/IMG_4741-1.JPG",
+    "src": "/images/portfolio/IMG_4741-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -676,7 +676,7 @@
   },
   {
     "id": "76",
-    "src": "/images/portfolio/IMG_4707-1.JPG",
+    "src": "/images/portfolio/IMG_4707-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "//imagesPortrait of family",
@@ -685,7 +685,7 @@
   },
   {
     "id": "77",
-    "src": "/images/portfolio/IMG_4687-1.JPG",
+    "src": "/images/portfolio/IMG_4687-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -694,7 +694,7 @@
   },
   {
     "id": "78",
-    "src": "/images/portfolio/DSC09898-1.jpeg",
+    "src": "/images/portfolio/DSC09898-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -703,7 +703,7 @@
   },
   {
     "id": "79",
-    "src": "/images/portfolio/DSC09793-1.jpeg",
+    "src": "/images/portfolio/DSC09793-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -712,7 +712,7 @@
   },
   {
     "id": "80",
-    "src": "/images/portfolio/DSC09716-1.jpeg",
+    "src": "/images/portfolio/DSC09716-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -721,7 +721,7 @@
   },
   {
     "id": "81",
-    "src": "/images/portfolio/DSC09705-1.jpeg",
+    "src": "/images/portfolio/DSC09705-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -730,7 +730,7 @@
   },
   {
     "id": "82",
-    "src": "/images/portfolio/DSC09691-1.jpeg",
+    "src": "/images/portfolio/DSC09691-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -739,7 +739,7 @@
   },
   {
     "id": "83",
-    "src": "/images/portfolio/DSC09552-1.jpeg",
+    "src": "/images/portfolio/DSC09552-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -748,7 +748,7 @@
   },
   {
     "id": "84",
-    "src": "/images/portfolio/DSC09231-1.jpeg",
+    "src": "/images/portfolio/DSC09231-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -757,7 +757,7 @@
   },
   {
     "id": "85",
-    "src": "/images/portfolio/DSC08827-1.jpeg",
+    "src": "/images/portfolio/DSC08827-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -766,7 +766,7 @@
   },
   {
     "id": "86",
-    "src": "/images/portfolio/DSC08466-1.jpeg",
+    "src": "/images/portfolio/DSC08466-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -775,7 +775,7 @@
   },
   {
     "id": "87",
-    "src": "/images/portfolio/DSC08385-1.jpeg",
+    "src": "/images/portfolio/DSC08385-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -784,7 +784,7 @@
   },
   {
     "id": "88",
-    "src": "/images/portfolio/DSC08369-1.jpeg",
+    "src": "/images/portfolio/DSC08369-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -793,7 +793,7 @@
   },
   {
     "id": "89",
-    "src": "/images/portfolio/DSC07025-1.jpeg",
+    "src": "/images/portfolio/DSC07025-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -802,7 +802,7 @@
   },
   {
     "id": "90",
-    "src": "/images/portfolio/DSC06261-1.jpeg",
+    "src": "/images/portfolio/DSC06261-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -811,7 +811,7 @@
   },
   {
     "id": "91",
-    "src": "/images/portfolio/DSC06245-1.jpeg",
+    "src": "/images/portfolio/DSC06245-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -820,7 +820,7 @@
   },
   {
     "id": "92",
-    "src": "/images/portfolio/DSC06127-1.jpeg",
+    "src": "/images/portfolio/DSC06127-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -829,7 +829,7 @@
   },
   {
     "id": "93",
-    "src": "/images/portfolio/DSC04552-1.jpeg",
+    "src": "/images/portfolio/DSC04552-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -838,7 +838,7 @@
   },
   {
     "id": "94",
-    "src": "/images/portfolio/DSC04463-1.jpeg",
+    "src": "/images/portfolio/DSC04463-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -847,7 +847,7 @@
   },
   {
     "id": "95",
-    "src": "/images/portfolio/DSC04463(1)-1.jpeg",
+    "src": "/images/portfolio/DSC04463(1)-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -856,7 +856,7 @@
   },
   {
     "id": "96",
-    "src": "/images/portfolio/DSC04441-1.jpeg",
+    "src": "/images/portfolio/DSC04441-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -865,7 +865,7 @@
   },
   {
     "id": "97",
-    "src": "/images/portfolio/DSC04215-2-1.jpeg",
+    "src": "/images/portfolio/DSC04215-2-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -874,7 +874,7 @@
   },
   {
     "id": "98",
-    "src": "/images/portfolio/DSC04215-1.jpeg",
+    "src": "/images/portfolio/DSC04215-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -883,7 +883,7 @@
   },
   {
     "id": "99",
-    "src": "/images/portfolio/DSC04181-2-1.jpeg",
+    "src": "/images/portfolio/DSC04181-2-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -892,7 +892,7 @@
   },
   {
     "id": "100",
-    "src": "/images/portfolio/DSC04181-1.jpeg",
+    "src": "/images/portfolio/DSC04181-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -901,7 +901,7 @@
   },
   {
     "id": "101",
-    "src": "/images/portfolio/DSC04156-1.jpeg",
+    "src": "/images/portfolio/DSC04156-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -910,7 +910,7 @@
   },
   {
     "id": "102",
-    "src": "/images/portfolio/DSC03943-1.jpeg",
+    "src": "/images/portfolio/DSC03943-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -919,7 +919,7 @@
   },
   {
     "id": "103",
-    "src": "/images/portfolio/DSC03680-1.jpeg",
+    "src": "/images/portfolio/DSC03680-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -928,7 +928,7 @@
   },
   {
     "id": "104",
-    "src": "/images/portfolio/DSC03627-1.jpeg",
+    "src": "/images/portfolio/DSC03627-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -937,7 +937,7 @@
   },
   {
     "id": "105",
-    "src": "/images/portfolio/DSC02981-1.jpeg",
+    "src": "/images/portfolio/DSC02981-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -946,7 +946,7 @@
   },
   {
     "id": "106",
-    "src": "/images/portfolio/DSC02710-1.jpeg",
+    "src": "/images/portfolio/DSC02710-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -955,7 +955,7 @@
   },
   {
     "id": "107",
-    "src": "/images/portfolio/DSC02307-1.jpeg",
+    "src": "/images/portfolio/DSC02307-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -964,7 +964,7 @@
   },
   {
     "id": "108",
-    "src": "/images/portfolio/DSC02230-1.jpeg",
+    "src": "/images/portfolio/DSC02230-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -973,7 +973,7 @@
   },
   {
     "id": "109",
-    "src": "/images/portfolio/DSC02153-1.jpeg",
+    "src": "/images/portfolio/DSC02153-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -982,7 +982,7 @@
   },
   {
     "id": "110",
-    "src": "/images/portfolio/DSC01861-1.jpeg",
+    "src": "/images/portfolio/DSC01861-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -991,7 +991,7 @@
   },
   {
     "id": "111",
-    "src": "/images/portfolio/DSC01819-1.jpeg",
+    "src": "/images/portfolio/DSC01819-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -1000,7 +1000,7 @@
   },
   {
     "id": "112",
-    "src": "/images/portfolio/DSC00891-1.jpeg",
+    "src": "/images/portfolio/DSC00891-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "113",
-    "src": "/images/portfolio/DSC00529-1.jpeg",
+    "src": "/images/portfolio/DSC00529-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "114",
-    "src": "/images/portfolio/DSC00416-1.jpeg",
+    "src": "/images/portfolio/DSC00416-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -1027,7 +1027,7 @@
   },
   {
     "id": "115",
-    "src": "/images/portfolio/DSC00407-1.jpeg",
+    "src": "/images/portfolio/DSC00407-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",
@@ -1036,7 +1036,7 @@
   },
   {
     "id": "116",
-    "src": "/images/portfolio/DSC00394-1.jpeg",
+    "src": "/images/portfolio/DSC00394-1.webp",
     "category": "family_&_pregnancy",
     "alt": {
       "ua": "Portrait of family",

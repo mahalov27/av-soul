@@ -22,7 +22,7 @@ const ContactsPage = () => {
     <PagesAnimated>
       <div className={styles.contactsBlock}>
         <img
-          src={process.env.PUBLIC_URL + '/images/DSC01763.jpeg'}
+          src={process.env.PUBLIC_URL + '/images/DSC01763.webp'}
           className={styles.img}
           alt="poster"
         />

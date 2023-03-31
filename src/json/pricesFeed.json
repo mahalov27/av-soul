@@ -61,7 +61,7 @@
         }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_portrait.jpg"
+    "src": "/images/pricesPosters/BG_price_portrait.webp"
   },
   {
     "id": "002",
@@ -133,7 +133,7 @@
         }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_family.jpg"
+    "src": "/images/pricesPosters/BG_price_family.webp"
   },
   {
     "id": "003",
@@ -205,7 +205,7 @@
         }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_love_story.jpg"
+    "src": "/images/pricesPosters/BG_price_love_story.webp"
   },
   {
     "id": "004",
@@ -277,7 +277,7 @@
         }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_pregnancy.jpg"
+    "src": "/images/pricesPosters/BG_price_pregnancy.webp"
   },
   {
     "id": "005",
@@ -309,6 +309,6 @@
         }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_wedding.jpg"
+    "src": "/images/pricesPosters/BG_price_wedding.webp"
   }
 ]
