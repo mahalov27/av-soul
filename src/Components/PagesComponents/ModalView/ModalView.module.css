@@ -1,16 +1,18 @@
 .modal{
+    position: fixed;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    position: fixed;
     background: rgba(000, 000, 000, 0.9);
     top: 0;
     left: 0;  
     z-index: 3;
 }
 .btn{
+    position: absolute;
+    
     border: none;
     height: 50px;
     background: none;
@@ -19,14 +21,18 @@
 }
 .viewImg{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     max-height: 97%;
-    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 .nextBtn{
     rotate: 180deg;
+    right: 0;
+}
+.prevBtn{
+    z-index: 2;
+    left: 0;
 }
 .img{
     height: 50px;
@@ -46,9 +52,4 @@
     position: absolute;
     top: 0;
     right: 0;
-}
-@media (max-width: 555px){
-    .viewImg{
-        bottom:0;
-    }
 }
