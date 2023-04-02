@@ -11,7 +11,7 @@ const Gallery = ({ category }) => {
   const [list, setList] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const [indexImage, setIndexImage] = useState(0);
-
+  
   const breackpoints = {
     default: 4,
     960: 3,
@@ -32,6 +32,8 @@ const Gallery = ({ category }) => {
   }, [category]);
 
   const handleIsOpenModal = (e) => {
+    const body = document.querySelector("body")
+
     if (!isOpen) {
       setIndexImage(e.target.dataset.idx);
       setIsOpen(true);
@@ -39,6 +41,8 @@ const Gallery = ({ category }) => {
       setIsOpen(false);
       setIndexImage(0);
     }
+    
+    body.classList.toggle("desableScroll")
   };
 
   return (

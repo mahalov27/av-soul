@@ -1,8 +1,8 @@
 [
     {
      "anchor": "portraits",
-     "src": "/images/categoryPosters/BG_link_portrait_1.webp",
-     "changeSrc": "/images/categoryPosters/BG_link_portrait_2.webp",
+     "src": "/images/categoryPosters/BG_link_portrait_1.jpg",
+     "changeSrc": "/images/categoryPosters/BG_link_portrait_2.jpg",
      "alt": "link to partfolio of portraits",
      "description": {
        "ua":"Пoртрети",
@@ -10,8 +10,8 @@
    },
    {
      "anchor": "wedding_&_love_story",
-     "src": "/images/categoryPosters/BG_link_wedding_1.webp",
-     "changeSrc": "/images/categoryPosters/BG_link_wedding_2.webp",
+     "src": "/images/categoryPosters/BG_link_wedding_1.jpg",
+     "changeSrc": "/images/categoryPosters/BG_link_wedding_2.jpg",
      "alt": "link to partfolio of weddings",
      "description": {
        "ua": "Весілля та просто закохані",
@@ -19,8 +19,8 @@
    },
    {
      "anchor": "family_&_pregnancy",
-     "src": "/images/categoryPosters/BG_link_family_1.webp",
-     "changeSrc": "/images/categoryPosters/BG_link_family_2.webp",
+     "src": "/images/categoryPosters/BG_link_family_1.jpg",
+     "changeSrc": "/images/categoryPosters/BG_link_family_2.jpg",
      "alt": "link to partfolio of family",
      "description": {
        "ua": "Сім'я та вагітність",

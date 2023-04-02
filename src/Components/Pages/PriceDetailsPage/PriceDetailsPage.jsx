@@ -33,7 +33,7 @@ const PriceDetailsPage = () => {
                 process.env.PUBLIC_URL + priceDatails[currentIndex].poster
               })`,
             }}
-            className={styles.block}
+            className={styles.info}
             custom={step}
             variants={variants}
             initial="enter"

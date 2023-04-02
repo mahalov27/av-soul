@@ -21,9 +21,6 @@ body{
 .active{
 color: var(--text-color-2);
 }
-
-@media(max-width: 555px){
-  .desableScroll{
-    overflow: hidden;
-  }
+.desableScroll{
+  overflow: hidden;
 }
