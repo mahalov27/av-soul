@@ -1,10 +1,17 @@
-.block {
+.blockInfo{
   position: relative;
   height: 550px;
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.block {
+  position: absolute;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 15px;
 }
 .description {
   position: absolute;
