@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/av-soul/static/css/main.3b2305b5.css",
-    "main.js": "/av-soul/static/js/main.e3a63830.js",
+    "main.js": "/av-soul/static/js/main.6af336be.js",
     "static/css/607.9eaf174b.chunk.css": "/av-soul/static/css/607.9eaf174b.chunk.css",
     "static/js/607.b3b17b24.chunk.js": "/av-soul/static/js/607.b3b17b24.chunk.js",
     "static/css/527.3da9c4c8.chunk.css": "/av-soul/static/css/527.3da9c4c8.chunk.css",
-    "static/js/527.1027c174.chunk.js": "/av-soul/static/js/527.1027c174.chunk.js",
+    "static/js/527.d12c14da.chunk.js": "/av-soul/static/js/527.d12c14da.chunk.js",
     "static/css/865.beba3dfd.chunk.css": "/av-soul/static/css/865.beba3dfd.chunk.css",
     "static/js/865.aca2805c.chunk.js": "/av-soul/static/js/865.aca2805c.chunk.js",
     "static/css/289.100d3180.chunk.css": "/av-soul/static/css/289.100d3180.chunk.css",
@@ -19,11 +19,11 @@
     "static/js/465.b2395815.chunk.js": "/av-soul/static/js/465.b2395815.chunk.js",
     "index.html": "/av-soul/index.html",
     "main.3b2305b5.css.map": "/av-soul/static/css/main.3b2305b5.css.map",
-    "main.e3a63830.js.map": "/av-soul/static/js/main.e3a63830.js.map",
+    "main.6af336be.js.map": "/av-soul/static/js/main.6af336be.js.map",
     "607.9eaf174b.chunk.css.map": "/av-soul/static/css/607.9eaf174b.chunk.css.map",
     "607.b3b17b24.chunk.js.map": "/av-soul/static/js/607.b3b17b24.chunk.js.map",
     "527.3da9c4c8.chunk.css.map": "/av-soul/static/css/527.3da9c4c8.chunk.css.map",
-    "527.1027c174.chunk.js.map": "/av-soul/static/js/527.1027c174.chunk.js.map",
+    "527.d12c14da.chunk.js.map": "/av-soul/static/js/527.d12c14da.chunk.js.map",
     "865.beba3dfd.chunk.css.map": "/av-soul/static/css/865.beba3dfd.chunk.css.map",
     "865.aca2805c.chunk.js.map": "/av-soul/static/js/865.aca2805c.chunk.js.map",
     "289.100d3180.chunk.css.map": "/av-soul/static/css/289.100d3180.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.3b2305b5.css",
-    "static/js/main.e3a63830.js"
+    "static/js/main.6af336be.js"
   ]
 }
