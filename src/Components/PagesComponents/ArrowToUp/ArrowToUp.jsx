@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import listenerScroll from "../../services/listenerScroll";
-import toUpPage from "../../services/toUpPage";
+import listenerScroll from "../../../services/listenerScroll";
+import toUpPage from "../../../services/toUpPage";
 import styles from "./ArrowToUp.module.css";
 
 const ArrowToUp = () => {

@@ -34,7 +34,7 @@
   margin-bottom: 7%;
 }
 .links{
-  /* text-decoration: none; */
+  text-decoration: solid underline black 1px;
   text-align: center;
   line-height: 250%;
 }

@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import { motion, AnimatePresence } from "framer-motion";
 import PagesAnimated from "../../PagesAnimated/PagesAnimated";
 import priceDatails from "../../../json/priceDatailsFeed.json";
-import { getNewIndex } from "../../services/indexCounter";
-import { swipeConfidenceThreshold, swipePower, variants} from "../../services/swipeSettings";
+import { getNewIndex } from "../../../services/indexCounter";
+import { swipeConfidenceThreshold, swipePower, variants} from "../../../services/swipeSettings";
 import AttentionPrices from "../../PagesComponents/AttentionPrices/AttentionPrices";
 import styles from "./PriceDetailsPage.module.css";
 

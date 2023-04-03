@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import listenerScroll from "../../services/listenerScroll";
+import listenerScroll from "../../../services/listenerScroll";
 import Toggle from "../Toggle/Toggle";
 import styles from "./header.module.css";
 

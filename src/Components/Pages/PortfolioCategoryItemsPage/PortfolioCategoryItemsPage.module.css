@@ -33,7 +33,11 @@
 }
 @media (max-width: 555px) {
   .titleBlock {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+  }
+  .title{
+    font-size: 20px;
+    padding-top: 14px;
   }
 }
 

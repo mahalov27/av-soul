@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { swipeConfidenceThreshold, swipePower, variants } from "../../services/swipeSettings";
-import { getNewIndex } from "../../services/indexCounter";
+import { swipeConfidenceThreshold, swipePower, variants } from "../../../services/swipeSettings";
+import { getNewIndex } from "../../../services/indexCounter";
 import styles from "./ModalView.module.css";
 
 const ModalView = (props) => {
@@ -28,14 +28,14 @@ const ModalView = (props) => {
       >
         <img
           src={process.env.PUBLIC_URL + "/images/icons/arrow.png"}
-          className={styles.img}
+          className={styles.img + " " + styles.imgBtnArrow}
           alt="button to previous"
         />
       </button>
       <AnimatePresence initial={false} custom={step}>
         <motion.img
           key={currentIndex}
-          src={process.env.PUBLIC_URL + list[currentIndex].src}
+          src={process.env.PUBLIC_URL + list[currentIndex].src_posters}
           alt={list[currentIndex].alt.ua}
           className={styles.viewImg}
           custom={step}
@@ -70,7 +70,7 @@ const ModalView = (props) => {
       >
         <img
           src={process.env.PUBLIC_URL + "/images/icons/arrow.png"}
-          className={styles.img}
+          className={styles.img + " " + styles.imgBtnArrow}
           alt="button to next"
         />
       </button>

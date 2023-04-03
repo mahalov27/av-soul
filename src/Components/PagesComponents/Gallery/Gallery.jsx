@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import portfolioCategiryItemsFeed from "../../../json/portfolioCategiryItemsFeed.json";
 import ModalView from "../ModalView/ModalView";
-import getRandomListItems from "../../services/getRandomListItems";
+import getRandomListItems from "../../../services/getRandomListItems";
 import Masonry from "react-masonry-css";
 import styles from "./Gallery.module.css";
 
@@ -55,11 +55,11 @@ const Gallery = ({ category }) => {
         >
           {list &&
             list.map((item, idx) => {
-              const { id, src, alt } = item;
+              const { id, src_min, alt } = item;
               return (
                 <div key={id}>
                   <img
-                    src={process.env.PUBLIC_URL + src}
+                    src={process.env.PUBLIC_URL + src_min}
                     alt={alt[language]}
                     className={styles.img}
                     data-idx={idx}
