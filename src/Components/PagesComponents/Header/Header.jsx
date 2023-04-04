@@ -62,8 +62,8 @@ const Header = () => {
             </NavLink>
           </li>
           <li className={styles.navItem} onClick={handleClick}>
-            <NavLink to="prices" className={styles.navLink}>
-              {language === 'ua' ? "Ціни" : "Prices"}
+            <NavLink to="services" className={styles.navLink}>
+              {language === 'ua' ? "Послуги" : "Services"}
             </NavLink>
           </li>
           <li className={styles.navItem} onClick={handleClick}>

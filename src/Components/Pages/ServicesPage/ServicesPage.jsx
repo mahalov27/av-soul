@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
-import PagesAnimated from "./../../PagesAnimated/PagesAnimated";
+import PagesAnimated from "../../PagesAnimated/PagesAnimated";
 import pricesFeed from "../../../json/pricesFeed.json";
-import styles from "./pricesPage.module.css";
+import styles from "./ServicesPage.module.css";
 
-const PricesPage = () => {
+const ServicesPage = () => {
   const language = useSelector((state) => state.myLanguage);
 
   const animationCard = {
@@ -79,4 +79,4 @@ const PricesPage = () => {
   );
 };
 
-export default PricesPage;
+export default ServicesPage;

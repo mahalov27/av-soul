@@ -25,3 +25,8 @@
     right: 2%;
   }
 }
+@media(max-width: 555px){
+  .iconArrow{
+    height: 45px;
+  }
+}

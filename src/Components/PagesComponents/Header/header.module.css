@@ -34,7 +34,7 @@
   height: 50px;
 }
 .navItem {
-  padding: 0 45px;
+  padding: 0 40px;
   list-style: none;
   transition: 0.3s;
 }
@@ -79,7 +79,7 @@
 
 @media (max-width: 700px) {
   .navItem {
-    padding: 0 28px;
+    padding: 0 23px;
   }
 }
 

@@ -53,6 +53,10 @@
     right: 0;
 }
 @media(max-width: 555px){
+    .prevBtn,
+    .nextBtn{
+        height: 25px;
+    }
     .imgBtnArrow{
         height: 25px;
     }

@@ -18,7 +18,7 @@ const CategoryList = () => {
                     <img
                       className={`${styles.categoryImg} 
                       ${styles.categoryImgNone}`}
-                      src={process.env.PUBLIC_URL + feed.src}
+                      src={process.env.PUBLIC_URL + feed.src }
                       alt={feed.alt}
                     />
                     <img

@@ -288,24 +288,24 @@
         "id": "01",
         "isLink": true,
         "listItem": {
-          "ua": "Пакет послуг «Лайт» 300 $",
-          "eng": "Package of services «Lite» 300 $"
+          "ua": "Пакет послуг «Лайт» 300$",
+          "eng": "Package of services «Lite» 300$"
         }
       },
       {
         "id": "02",
         "isLink": true,
         "listItem": {
-          "ua": "Пакет послуг «Стандарт» 500 $",
-          "eng": "Package of services «Standard» 500 $"
+          "ua": "Пакет послуг «Стандарт» 500$",
+          "eng": "Package of services «Standard» 500$"
         }
       },
       {
         "id": "03",
         "isLink": true,
         "listItem": {
-          "ua": "Пакет послуг «Максимальний» 800 $",
-          "eng": "Package of services «Maximum» 800 $"
+          "ua": "Пакет послуг «Максимальний» 800$",
+          "eng": "Package of services «Maximum» 800$"
         }
       }
     ],
