@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/av-soul/static/css/main.7b413b3a.css",
+    "main.css": "/av-soul/static/css/main.1bb61483.css",
     "main.js": "/av-soul/static/js/main.b4013032.js",
     "static/css/607.7f642d1e.chunk.css": "/av-soul/static/css/607.7f642d1e.chunk.css",
     "static/js/607.5625fa5e.chunk.js": "/av-soul/static/js/607.5625fa5e.chunk.js",
@@ -21,7 +21,7 @@
     "static/js/917.fc8b29a6.chunk.js": "/av-soul/static/js/917.fc8b29a6.chunk.js",
     "static/js/280.b373a821.chunk.js": "/av-soul/static/js/280.b373a821.chunk.js",
     "index.html": "/av-soul/index.html",
-    "main.7b413b3a.css.map": "/av-soul/static/css/main.7b413b3a.css.map",
+    "main.1bb61483.css.map": "/av-soul/static/css/main.1bb61483.css.map",
     "main.b4013032.js.map": "/av-soul/static/js/main.b4013032.js.map",
     "607.7f642d1e.chunk.css.map": "/av-soul/static/css/607.7f642d1e.chunk.css.map",
     "607.5625fa5e.chunk.js.map": "/av-soul/static/js/607.5625fa5e.chunk.js.map",
@@ -42,7 +42,7 @@
     "280.b373a821.chunk.js.map": "/av-soul/static/js/280.b373a821.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b413b3a.css",
+    "static/css/main.1bb61483.css",
     "static/js/main.b4013032.js"
   ]
 }
