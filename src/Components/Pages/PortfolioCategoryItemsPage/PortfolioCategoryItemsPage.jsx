@@ -14,6 +14,7 @@ const CategoryPage = () => {
 
   const handleGoToBack = () => {
     const hash = location.hash.length;
+    
     navigate(hash > 0 ? -2 : -1);
   };
 

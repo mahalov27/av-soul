@@ -34,13 +34,12 @@
   margin-bottom: 7%;
 }
 .links{
-  text-decoration: solid underline black 1px;
   text-align: center;
   line-height: 250%;
+  transition: var(--transition-hover);
 }
 .links:hover{
-  color: var(--text-color-2);
-  transition: var(--transition-hover);
+  color: rgb(69, 69, 69);
 }
 .servicesList{
   display: flex;

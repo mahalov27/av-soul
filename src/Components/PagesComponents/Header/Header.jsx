@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import listenerScroll from "../../../services/listenerScroll";
 import Toggle from "../Toggle/Toggle";
+// import Auth from "../Auth/Auth";
 import styles from "./header.module.css";
 
 const Header = () => {
@@ -73,6 +74,7 @@ const Header = () => {
           </li>
         </ul>
           <Toggle />
+          {/* <Auth /> */}
       </div>
     </header>
   );

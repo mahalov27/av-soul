@@ -1,0 +1,116 @@
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: var(--transition-hover);
+}
+button:hover{
+    color: var(--text-color-2)
+}
+.btn{
+    position: absolute;
+    top: -145.5px;
+    right: 100px;
+    cursor: pointer;
+}
+.wrapperAuthBlock{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+}
+.authBlock{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    z-index: 1;
+    background: #ffffff;
+    box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.4);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.navBtns{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    height: 100%;
+}
+.activeBtn{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background: var(--text-color-2);
+    opacity: 0.3;
+    z-index: -1;
+    transition: 0.3s;
+}
+.activeBtnSwitch{
+    left: 50%;
+}
+.btnSwitch{
+    font-size: 20px;
+    color: var(--text-color-1);
+    width: 50%;
+}
+.btnClose{
+    width: 20px;
+    height: 2px;
+    background: #000;
+    margin-right: 10px;
+    rotate: 45deg;
+}
+.btnClose::before{
+    content: '';
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    rotate: -90deg;
+}
+.blockForm{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 260px;
+    padding: 45px 0 45px 0;
+}
+.attention{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    color:red;
+    font-size: 12px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.input{
+    height: 35px;
+    width: 100%;
+    padding: 0 10px;
+}
+.submitBtn{
+    position: relative;
+    font-size: 16px;
+    background-color: var(--text-color-2);
+    height: 30px;
+    width: auto;
+    border-radius: 50px;
+    padding: 0 10px;
+    opacity: 0.3;
+}

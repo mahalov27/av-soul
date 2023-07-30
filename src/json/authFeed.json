@@ -1,0 +1,42 @@
+{
+    "order": {
+        "title": {
+            "ua": "Токен",
+            "eng": "Token"
+        },
+        "attention": {
+            "ua": "Не вірний токен",
+            "eng": "Invalid token"
+        },
+        "placeholder": {
+            "ua": "Введіть Ваш токен",
+            "eng": "Enter your token"
+        }
+    },
+    "admin": {
+        "title": {
+            "ua": "Вхід",
+            "eng": "Log In"
+        },
+        "attention": {
+            "ua": "Не вірний логін чи пароль",
+            "eng": "Invalid login or password"
+        },
+        "placeholder": {
+            "ua": "Введіть Ваш логін",
+            "eng": "Enter your login"
+        },
+        "placeholder_password": {
+            "ua": "Введіть Ваш пароль",
+            "eng": "Enter your password"
+        }
+    },
+    "button_open": {
+        "ua": "Вхід",
+        "eng": "LogIn"
+    },
+    "button_submit": {
+        "ua": "Підтвердити",
+        "eng": "Submit"
+    }
+}

@@ -3,10 +3,14 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { motion, AnimatePresence } from "framer-motion";
 import PagesAnimated from "../../PagesAnimated/PagesAnimated";
-import priceDatails from "../../../json/priceDatailsFeed.json";
-import { getNewIndex } from "../../../services/indexCounter";
-import { swipeConfidenceThreshold, swipePower, variants} from "../../../services/swipeSettings";
 import AttentionPrices from "../../PagesComponents/AttentionPrices/AttentionPrices";
+import { getNewIndex } from "../../../services/indexCounter";
+import {
+  swipeConfidenceThreshold,
+  swipePower,
+  variants,
+} from "../../../services/swipeSettings";
+import priceDatails from "../../../json/priceDatailsFeed.json";
 import styles from "./PriceDetailsPage.module.css";
 
 const PriceDetailsPage = () => {
