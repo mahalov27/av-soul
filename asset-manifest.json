@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/av-soul/static/css/main.1bb61483.css",
-    "main.js": "/av-soul/static/js/main.b4013032.js",
+    "main.js": "/av-soul/static/js/main.82760d90.js",
     "static/css/607.7f642d1e.chunk.css": "/av-soul/static/css/607.7f642d1e.chunk.css",
     "static/js/607.5625fa5e.chunk.js": "/av-soul/static/js/607.5625fa5e.chunk.js",
-    "static/css/527.10ec85da.chunk.css": "/av-soul/static/css/527.10ec85da.chunk.css",
-    "static/js/527.0d8bb1bb.chunk.js": "/av-soul/static/js/527.0d8bb1bb.chunk.js",
+    "static/css/680.058b5bd7.chunk.css": "/av-soul/static/css/680.058b5bd7.chunk.css",
+    "static/js/680.4504f5b6.chunk.js": "/av-soul/static/js/680.4504f5b6.chunk.js",
     "static/css/865.983616d9.chunk.css": "/av-soul/static/css/865.983616d9.chunk.css",
     "static/js/865.4de9ddcb.chunk.js": "/av-soul/static/js/865.4de9ddcb.chunk.js",
     "static/css/264.f2bb6348.chunk.css": "/av-soul/static/css/264.f2bb6348.chunk.css",
@@ -22,11 +22,11 @@
     "static/js/280.b373a821.chunk.js": "/av-soul/static/js/280.b373a821.chunk.js",
     "index.html": "/av-soul/index.html",
     "main.1bb61483.css.map": "/av-soul/static/css/main.1bb61483.css.map",
-    "main.b4013032.js.map": "/av-soul/static/js/main.b4013032.js.map",
+    "main.82760d90.js.map": "/av-soul/static/js/main.82760d90.js.map",
     "607.7f642d1e.chunk.css.map": "/av-soul/static/css/607.7f642d1e.chunk.css.map",
     "607.5625fa5e.chunk.js.map": "/av-soul/static/js/607.5625fa5e.chunk.js.map",
-    "527.10ec85da.chunk.css.map": "/av-soul/static/css/527.10ec85da.chunk.css.map",
-    "527.0d8bb1bb.chunk.js.map": "/av-soul/static/js/527.0d8bb1bb.chunk.js.map",
+    "680.058b5bd7.chunk.css.map": "/av-soul/static/css/680.058b5bd7.chunk.css.map",
+    "680.4504f5b6.chunk.js.map": "/av-soul/static/js/680.4504f5b6.chunk.js.map",
     "865.983616d9.chunk.css.map": "/av-soul/static/css/865.983616d9.chunk.css.map",
     "865.4de9ddcb.chunk.js.map": "/av-soul/static/js/865.4de9ddcb.chunk.js.map",
     "264.f2bb6348.chunk.css.map": "/av-soul/static/css/264.f2bb6348.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.1bb61483.css",
-    "static/js/main.b4013032.js"
+    "static/js/main.82760d90.js"
   ]
 }
