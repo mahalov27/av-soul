@@ -1,0 +1,82 @@
+.contactsBlock{
+    display: flex;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+.img{
+    width: 50%;
+    height: 700px;
+    object-fit: cover;
+    object-position: 0 65%;
+}
+.listContacts{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 100px 100px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    text-decoration: none;
+
+}
+.subListContacts{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+.icon{
+    display: inline-block;
+    height: 25px;
+    margin-right: 15px 
+}
+.text{
+    color: var(--text-color-1);
+    transition: var(--transition-hover);
+}
+.text:hover{
+    color:var(--text-color-2);
+}
+
+@media (max-width: 1469px) {
+    .img{
+        height: 50vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .listContacts{
+        padding: 50px 100px; 
+    }
+    .subListContacts{
+        flex-direction: column;
+        align-items: center;
+        height: 19vw;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 720px) {
+    .contactsBlock{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        height: 100vw;
+    }
+    .listContacts{
+        width: 100%;
+        height: 100vw;
+        justify-content: space-between;
+        padding: 50px 50px 0;
+    }
+    .subListContacts{
+        height: 46.5vw;
+    }
+}

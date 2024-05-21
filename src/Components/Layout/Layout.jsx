@@ -1,9 +1,9 @@
 import { Suspense, useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Header from "../PagesComponents/Header/Header";
-import Footer from "../PagesComponents/Footer/Footer";
-import ArrowToUp from "../PagesComponents/ArrowToUp/ArrowToUp";
-import Loader from "../PagesComponents/Loader/Loader";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import ArrowToUp from "../ArrowToUp/ArrowToUp";
+import Loader from "../Loader/Loader";
 import toUpPage from "../../services/toUpPage";
 import styles from "./Layout.module.css";
 
