@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkav_soul=self.webpackChunkav_soul||[]).push([[606],{1606:function(u,n,e){e.r(n),e.d(n,{default:function(){return f}});var c=e(2791),s={},t=e(184),f=function(){return(0,c.useEffect)((function(){}),[]),(0,t.jsx)("h1",{className:s.h,children:"User Account"})}}}]);
+//# sourceMappingURL=606.53ff59a0.chunk.js.map

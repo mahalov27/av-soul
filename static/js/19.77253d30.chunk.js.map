@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/19.77253d30.chunk.js","mappings":"wHAMA,UANyB,WACrB,OACI,2CAER,C","sources":["pages/AdminAccountPage/AdminAccountPage.jsx"],"sourcesContent":["const AdminAccountPage = () => {\r\n    return (\r\n        <>AdminPage</>\r\n    )\r\n}\r\n\r\nexport default AdminAccountPage"],"names":[],"sourceRoot":""}
