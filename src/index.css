@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Quicksand:wght@600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Quicksand:wght@600;700&display=swap");
 
 * {
   margin: 0;
@@ -8,23 +8,23 @@
   scroll-behavior: smooth;
 }
 
-:root{
+*:active {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
   --text-color-1: #1a1919;
   --text-color-2: #bfbfbf;
   --transition-hover: 0.6s;
 }
 
-:root:focus{
-  outline: none;
-}
-
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
   position: relative;
 }
-.active{
-color: var(--text-color-2);
+.active {
+  color: var(--text-color-2);
 }
-.desableScroll{
+.desableScroll {
   overflow: hidden;
 }
