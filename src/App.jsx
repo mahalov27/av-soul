@@ -5,6 +5,7 @@ import { useFirstStart } from "./hooks/useFirstStart";
 import Layout from "./components/Layout/Layout";
 import Loader from "./components/Loader/Loader";
 import LoaderJingle from "./components/LoaderJingle/LoaderJingle";
+import { useEffect } from "react";
 
 const AboutMe = lazy(() => import("./pages/AboutMePage/AboutMePage"));
 const PortfolioCategoryListPage = lazy(() => import("./pages/PortfolioCategoryListPage/PortfolioCategoryListPage"));
@@ -19,6 +20,10 @@ const NotPage = lazy(() => import("./pages/NotPage/NotPage"));
 const App = () => {
   const { isFirstStart } = useFirstStart();
   const location = useLocation();
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+  },[])
 
   return (
     <Suspense fallback={<Loader />}>

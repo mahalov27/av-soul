@@ -29,26 +29,16 @@ const Gallery = ({ category }) => {
     }
   }, [category]);
 
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [isOpen]);
-
   const handleIsOpenModal = (e) => {
-    const body = document.querySelector("body");
-
     if (!isOpen) {
       setIndexImage(e.target.dataset.idx);
       setIsOpen(true);
+      document.body.style.overflow = "hidden";
     } else {
       setIsOpen(false);
       setIndexImage(0);
+      document.body.style.overflow = "auto";
     }
-
-    body.classList.toggle("desableScroll");
   };
 
   return (

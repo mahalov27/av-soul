@@ -19,11 +19,12 @@ const Header = () => {
   }, []);
 
   const handleClick = () => {
-    const body = document.querySelector("body");
     const screenWidth = window.innerWidth;
 
     !mobileNavigation ? setMobileNovigation(true) : setMobileNovigation(false);
-    screenWidth <= 555 && body.classList.toggle("desableScroll");
+    if(screenWidth <= 555) {
+      document.body.style.overflow = !mobileNavigation ? "hidden" : "auto";
+    }
   };
 
   return (

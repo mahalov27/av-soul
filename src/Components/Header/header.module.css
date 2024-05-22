@@ -149,7 +149,7 @@
   .nav {
     position: absolute;
     width: 100%;
-    height: calc(100vh - 50px);
+    height: calc(100dvh - 50px);
     top: 50px;
     left: -100%;
     background-color: rgba(255, 255, 255, 0.95);
