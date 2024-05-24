@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import PagesAnimated from "../../components/PagesAnimated/PagesAnimated";
+import Form from "../../components/Form/Form";
 import styles from "./ContactsPage.module.css";
 
 const animation = {
@@ -104,6 +105,7 @@ const ContactsPage = () => {
           </motion.ul>
         </motion.div>
       </div>
+      <Form />
     </PagesAnimated>
   );
 };

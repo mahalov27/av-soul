@@ -1,21 +1,28 @@
 {
   "name": "av_soul",
   "version": "0.1.0",
-  "homepage": "https://mahalov27.github.io/av-soul/",
+  "homepage": "https://avsoul.com.ua",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.18",
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.4.6",
     "framer-motion": "^7.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
     "react-masonry-css": "^1.0.16",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-toastify": "^10.0.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
   },
   "scripts": {
     "predeploy": "npm run build",

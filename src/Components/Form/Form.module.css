@@ -1,0 +1,50 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+h2{
+    margin-bottom: 50px;
+    font-weight: 400;
+    color:var(--text-color-1);
+    width: 85%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1028px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    flex: 1 1 45%
+}
+
+.typeConnect{
+    padding-top: 19px;
+}
+
+@media (max-width: 1240px ) {
+    form{
+        width: 85%;
+    }
+}
+
+@media (max-width: 720px) {
+    form div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        flex: 1 1 100%
+    }
+}
