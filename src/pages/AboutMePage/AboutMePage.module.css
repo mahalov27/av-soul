@@ -5,15 +5,43 @@
     width: 100%;
     margin-bottom: 50px;
 }
+
 .blockImg{
     width: 45%;
 }
+
 .img{
     position: relative;
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
 }
+
+.skeleton {
+    width: 80%;
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--skeleton-color);
+    margin-bottom: 5px;
+    animation: anim 2s infinite linear;
+    aspect-ratio: 2 / 3;
+}
+
+@keyframes anim {
+    0% {
+        opacity: var(--skeleton-opacity);
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        opacity: var(--skeleton-opacity);
+    }
+}
+
+
 .text{
     width: 55%;
     line-height: 30px;
@@ -51,7 +79,8 @@
         width: 100%;
         margin-bottom: 30px;
     }
-    .img{
+    .img,
+    .skeleton{
         width: 100%;
     }
     .text{

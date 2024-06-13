@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1vw;
+  margin-bottom: 15px;
+}
+
+.block {
+    background-color: var(--skeleton-color);
+    aspect-ratio: 1 / 1.568635;
+    animation: anim 2s infinite linear;
+}
+
+@media (max-width: 555px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+}
+
+@keyframes anim {
+    0% {
+        opacity: var(--skeleton-opacity);
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        opacity: var(--skeleton-opacity);
+    }
+}

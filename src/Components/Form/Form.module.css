@@ -11,6 +11,7 @@ h2{
     font-weight: 400;
     color:var(--text-color-1);
     width: 85%;
+    text-align: center;
 }
 
 form{
@@ -46,5 +47,8 @@ form div{
         width: 100%;
         gap: 20px;
         flex: 1 1 100%
+    }
+    h2{
+        text-align: start;
     }
 }

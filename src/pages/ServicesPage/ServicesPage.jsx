@@ -2,35 +2,28 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
 import PagesAnimated from "../../components/PagesAnimated/PagesAnimated";
+import { animationCard } from "./animationCard";
 import pricesFeed from "../../json/pricesFeed.json";
+import useImgLoadConrtol from "../../hooks/useImgLoadConrtol";
+import ServicesSkeleton from "./ServicesSkeleton";
+import Loader from "../../components/Loader/Loader";
 import styles from "./ServicesPage.module.css";
 
 const ServicesPage = () => {
   const language = useSelector((state) => state.myLanguage);
-
-  const animationCard = {
-    hidden: {
-      opacity: 0,
-      top: "100%",
-      transform: "translate(0, -50%)",
-    },
-    visible: {
-      opacity: 1,
-      top: "50%",
-      transition: {
-        duration: 1,
-      },
-    },
-  };
+  const { isAllImgLoaded, isLoadedImg } = useImgLoadConrtol(pricesFeed);
 
   return (
     <PagesAnimated>
+      {!isAllImgLoaded && (
+        <>
+          <ServicesSkeleton />
+          <Loader />
+        </>
+      )}
       <ul className={styles.blockPrices}>
         {pricesFeed &&
           pricesFeed.map((price) => {
-            const backgroundStyles = {
-              backgroundImage: `url(${process.env.PUBLIC_URL + price.src})`,
-            };
             return (
               <motion.li
                 initial="hidden"
@@ -38,19 +31,24 @@ const ServicesPage = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 key={price.id}
                 className={styles.blockPrice}
-                style={backgroundStyles}
+                
               >
+                <img
+                  src={`${process.env.PUBLIC_URL + price.src}`}
+                  className={styles.background}
+                  onLoad={isLoadedImg}
+                  alt="background"
+                  style={{ display: isAllImgLoaded ? "block" : "none" }}
+                />
                 <motion.div
                   variants={animationCard}
                   className={styles.priceCard}
                 >
-                  <h2 className={styles.priceTitle}>
-                    {price.title[language]}
-                  </h2>
+                  <h2 className={styles.priceTitle}>{price.title[language]}</h2>
                   {price.price && (
                     <h3 className={styles.price}>
-                      {price.price}$ / 1{" "}
-                      {language === "ua" ? "година" : "hour"}
+                      {`${price.price}₴ - 1
+                      ${language === "ua" ? "година" : "hour"}`}
                     </h3>
                   )}
                   <ul className={styles.servicesList}>

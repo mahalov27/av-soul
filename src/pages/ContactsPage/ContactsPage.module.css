@@ -3,6 +3,25 @@
     margin-bottom: 20px;
     overflow-x: hidden;
 }
+.skeleton {
+    width: 50%;
+    height: 700px;
+    background: var(--skeleton-color);
+    margin-bottom: 5px;
+    animation: anim 2s infinite linear;
+}
+
+@keyframes anim {
+    0% {
+        opacity: var(--skeleton-opacity);
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        opacity: var(--skeleton-opacity);
+    }
+}
 .img{
     width: 50%;
     height: 700px;
@@ -46,7 +65,8 @@
 }
 
 @media (max-width: 1469px) {
-    .img{
+    .img,
+    .skeleton{
         height: 50vw;
     }
 }
@@ -66,7 +86,8 @@
     .contactsBlock{
         flex-direction: column;
     }
-    .img{
+    .img,
+    .skeleton{
         width: 100%;
         height: 100vw;
     }

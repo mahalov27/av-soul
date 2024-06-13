@@ -1,0 +1,44 @@
+.block {
+  width: 100%;
+  height: 700px;
+  background: var(--skeleton-color);
+  margin-bottom: 20px;
+  animation: anim 2s infinite linear;
+}
+
+@keyframes anim {
+  0% {
+    opacity: var(--skeleton-opacity);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: var(--skeleton-opacity);
+  }
+}
+
+@media (max-width: 1200px) {
+  .block {
+    height: 550px;
+  }
+}
+
+@media (max-width: 960px) {
+  .block {
+    height: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .block {
+    height: 420px;
+  }
+}
+
+@media (max-width: 555px) {
+  .block {
+    margin-bottom: 10px;
+    height: 500px;
+  }
+}

@@ -116,7 +116,7 @@ const Form = () => {
             type="submit"
             endIcon={!pending ? <SendIcon /> : <Pending />}
             variant="contained"
-            disabled={!formik.isValid}
+            disabled={!(formik.isValid && formik.dirty)}
           >
             {language === "ua" ? "Відправити" : "Send"}
           </Button>

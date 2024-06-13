@@ -22,12 +22,12 @@ const App = () => {
   const location = useLocation();
 
   useEffect(() => {
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden";
   },[])
 
   return (
     <Suspense fallback={<Loader />}>
-      {isFirstStart && <LoaderJingle />}
+      {/* {isFirstStart && <LoaderJingle />} */}
       <AnimatePresence mode="wait">
         <Routes key={location.pathname} location={location}>
           <Route path="/" element={<Layout />}>

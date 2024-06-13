@@ -29,3 +29,13 @@
         rotate: -90deg;
     }
 }
+.block {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    background: gray;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1485px) {
+    
+}

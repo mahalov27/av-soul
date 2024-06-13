@@ -10,7 +10,6 @@ const PortfolioPage = () => {
   return (
     <PagesAnimated>
       <div className={styles.categoryTextConteiner}>
-        {/* <p className={styles.categoryText}>{portfolioCategoryTextFeed[0].textContent[language]}</p> */}
       </div>
       <CategoryList/>
     </PagesAnimated>

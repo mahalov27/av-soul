@@ -15,7 +15,9 @@
 :root {
   --text-color-1: #1a1919;
   --text-color-2: #bfbfbf;
+  --skeleton-color: rgb(128, 128, 128);
   --transition-hover: 0.6s;
+  --skeleton-opacity: 0.8
 }
 
 body {

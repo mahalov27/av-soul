@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import PagesAnimated from "../../components/PagesAnimated/PagesAnimated";
+import Loader from "../../components/Loader/Loader";
 import Form from "../../components/Form/Form";
 import styles from "./ContactsPage.module.css";
 
@@ -19,13 +21,18 @@ const animation = {
 };
 
 const ContactsPage = () => {
+  const [isLoaded, setIsloaded] = useState(false)
   return (
     <PagesAnimated>
+      {!isLoaded && <Loader/>}
       <div className={styles.contactsBlock}>
+        {!isLoaded && <div className={styles.skeleton}></div>}
         <img
           src={process.env.PUBLIC_URL + '/images/DSC01763.webp'}
           className={styles.img}
           alt="poster"
+          onLoad={() => setIsloaded(true)}
+          style={{display: isLoaded ? "block" : "none"}}
         />
         <motion.div
           initial="hidden"
