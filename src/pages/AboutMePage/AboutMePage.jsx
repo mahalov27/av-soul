@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PagesAnimated from "../../components/PagesAnimated/PagesAnimated";
 import { useSelector } from "react-redux";
 import Gallery from "../../components/Gallery/Gallery";
@@ -7,7 +7,7 @@ import styles from "./AboutMePage.module.css";
 
 const AboutMePage = () => {
   const language = useSelector((state) => state.myLanguage);
-  const [isLoaded, setIsloaded] = useState(false)
+  const [isLoaded, setIsloaded] = useState(false);
 
   return (
     <PagesAnimated>

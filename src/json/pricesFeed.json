@@ -5,22 +5,6 @@
     "price": 3000,
     "listItems": [
       {
-        "id": "01",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фотосесія в студії/на вулиці",
-          "eng": "Photo session in the studio/on the street"
-        }
-      },
-      {
-        "id": "02",
-        "isLink": false,
-        "listItem": {
-          "ua": "Допомога у підборі образів та місця зйомки",
-          "eng": "Support in choosing /images and shooting locations"
-        }
-      },
-      {
         "id": "03",
         "isLink": false,
         "listItem": {
@@ -37,31 +21,46 @@
         }
       },
       {
+        "id": "02",
+        "isLink": false,
+        "listItem": {
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
+        }
+      },
+      {
         "id": "05",
         "isLink": false,
         "listItem": {
-          "ua": "Перші 10 фото протягом 1-2 днів після зйомки",
+          "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
           "eng": "The first 10 photos within 2-3 days after the shooting"
-        }
-      },
-      {
-        "id": "06",
-        "isLink": false,
-        "listItem": {
-          "ua": "Терміни обробки 3-4 тижні",
-          "eng": "Processing time is 3-4 weeks"
-        }
-      },
-      {
-        "id": "07",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фото та відео віддаються в електронному вигляді",
-          "eng": "Photos and videos are submitted electronically"
         }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_portrait1.webp"
+    "src": "/images/pricesPosters/BG_price_portrait1.webp",
+    "details": [
+      {
+        "id": "02",
+        "text": {
+          "ua": "* Терміни обробки 3-4 тижні",
+          "eng": "* Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "03",
+        "text": {
+          "ua": "* Фото та відео віддаються в електронному вигляді",
+          "eng": "* Photos and videos are delivered electronically"
+        }
+      },
+      {
+        "id": "04",
+        "text": {
+          "ua": "* Оренда фотостудії не входить в вартість послуги",
+          "eng": "* Renting a photo studio is not included in the price of the service"
+        }
+      }
+    ]
   },
   {
     "id": "002",
@@ -69,22 +68,6 @@
     "price": 4000,
     "listItems": [
       {
-        "id": "01",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фотосесія в студії/на вулиці",
-          "eng": "Photo session in the studio/on the street"
-        }
-      },
-      {
-        "id": "02",
-        "isLink": false,
-        "listItem": {
-          "ua": "Допомога у підборі образів та місця зйомки",
-          "eng": "Support in choosing /images and shooting locations"
-        }
-      },
-      {
         "id": "03",
         "isLink": false,
         "listItem": {
@@ -101,13 +84,14 @@
         }
       },
       {
-        "id": "05",
+        "id": "02",
         "isLink": false,
         "listItem": {
-          "ua": "Фотодрук 20 фото розміром 10х15",
-          "eng": "Photo printing of 20 photos, size 10x15"
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
         }
       },
+ 
       {
         "id": "06",
         "isLink": false,
@@ -115,25 +99,39 @@
           "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
           "eng": "The first 10 photos within 2-3 days after the shooting"
         }
-      },
-      {
-        "id": "07",
-        "isLink": false,
-        "listItem": {
-          "ua": "Терміни обробки 3-4 тижні",
-          "eng": "Processing time is 3-4 weeks"
-        }
-      },
-      {
-        "id": "08",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фото та відео віддаються в електронному вигляді",
-          "eng": "Photos and videos are submitted electronically"
-        }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_family.webp"
+    "src": "/images/pricesPosters/BG_price_family.webp",
+    "details": [
+      {
+        "id": "02",
+        "text": {
+          "ua": "* Терміни обробки 3-4 тижні",
+          "eng": "* Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "03",
+        "text": {
+          "ua": "* Фото та відео віддаються в електронному вигляді",
+          "eng": "* Photos and videos are delivered electronically"
+        }
+      },
+      {
+        "id": "04",
+        "text": {
+          "ua": "* Оренда фотостудії не входить в вартість послуги",
+          "eng": "* Renting a photo studio is not included in the price of the service"
+        }
+      },
+      {
+        "id": "05",
+        "text": {
+          "ua": "* Якщо у фотосесії беруть участь більше 4 людей,  вартість зйомки збільшується на 30%",
+          "eng": "* If more than 4 person take part in the photo shoot, the cost of shooting increases by 30%"
+        }
+      }
+    ]
   },
   {
     "id": "003",
@@ -141,22 +139,6 @@
     "price": 3500,
     "listItems": [
       {
-        "id": "01",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фотосесія в студії/на вулиці",
-          "eng": "Photo session in the studio/on the street"
-        }
-      },
-      {
-        "id": "02",
-        "isLink": false,
-        "listItem": {
-          "ua": "Допомога у підборі образів та місця зйомки",
-          "eng": "Support in choosing /images and shooting locations"
-        }
-      },
-      {
         "id": "03",
         "isLink": false,
         "listItem": {
@@ -173,11 +155,11 @@
         }
       },
       {
-        "id": "05",
+        "id": "02",
         "isLink": false,
         "listItem": {
-          "ua": "Фотодрук 20 фото розміром 10х15",
-          "eng": "Photo printing of 20 photos, size 10x15"
+          "ua": "Допомога у підборі образів та місця зйомки",
+          "eng": "Support in choosing /images and shooting locations"
         }
       },
       {
@@ -187,25 +169,32 @@
           "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
           "eng": "The first 10 photos within 2-3 days after the shooting"
         }
-      },
-      {
-        "id": "07",
-        "isLink": false,
-        "listItem": {
-          "ua": "Терміни обробки 3-4 тижні",
-          "eng": "Processing time is 3-4 weeks"
-        }
-      },
-      {
-        "id": "08",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фото та відео віддаються в електронному вигляді",
-          "eng": "Photos and videos are submitted electronically"
-        }
       }
     ],
-    "src": "/images/pricesPosters/BG_price_love_story1.webp"
+    "src": "/images/pricesPosters/BG_price_love_story1.webp",
+    "details": [
+      {
+        "id": "02",
+        "text": {
+          "ua": "* Терміни обробки 3-4 тижні",
+          "eng": "* Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "03",
+        "text": {
+          "ua": "* Фото та відео віддаються в електронному вигляді",
+          "eng": "* Photos and videos are delivered electronically"
+        }
+      },
+      {
+        "id": "04",
+        "text": {
+          "ua": "* Оренда фотостудії не входить в вартість послуги",
+          "eng": "* Renting a photo studio is not included in the price of the service"
+        }
+      }
+    ]
   },
   {
     "id": "004",
@@ -213,14 +202,6 @@
     "price": 3000,
     "listItems": [
       {
-        "id": "01",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фотосесія в студії/на вулиці",
-          "eng": "Photo session in the studio/on the street"
-        }
-      },
-      {
         "id": "02",
         "isLink": false,
         "listItem": {
@@ -248,36 +229,35 @@
         "id": "05",
         "isLink": false,
         "listItem": {
-          "ua": "Фотодрук 20 фото розміром 10х15",
-          "eng": "Photo printing of 20 photos, size 10x15"
-        }
-      },
-      {
-        "id": "06",
-        "isLink": false,
-        "listItem": {
           "ua": "Анонс з 10 фото протягом 1-2 днів після зйомки",
           "eng": "The first 10 photos within 2-3 days after the shooting"
         }
-      },
+      }     
+    ],
+    "src": "/images/pricesPosters/BG_price_pregnancy.webp",
+    "details": [
       {
-        "id": "07",
-        "isLink": false,
-        "listItem": {
-          "ua": "Терміни обробки 3-4 тижні",
-          "eng": "Processing time is 3-4 weeks"
+        "id": "02",
+        "text": {
+          "ua": "* Терміни обробки 3-4 тижні",
+          "eng": "* Processing time is 3-4 weeks"
         }
       },
       {
-        "id": "08",
-        "isLink": false,
-        "listItem": {
-          "ua": "Фото та відео віддаються в електронному вигляді",
-          "eng": "Photos and videos are submitted electronically"
+        "id": "03",
+        "text": {
+          "ua": "* Фото та відео віддаються в електронному вигляді",
+          "eng": "* Photos and videos are delivered electronically"
+        }
+      },
+      {
+        "id": "04",
+        "text": {
+          "ua": "* Оренда фотостудії не входить в вартість послуги",
+          "eng": "* Renting a photo studio is not included in the price of the service"
         }
       }
-    ],
-    "src": "/images/pricesPosters/BG_price_pregnancy.webp"
+    ]
   },
   {
     "id": "005",
@@ -286,6 +266,7 @@
     "listItems": [
       {
         "id": "01",
+        "name": "lite",
         "isLink": true,
         "listItem": {
           "ua": "Пакет послуг «Лайт» 300$",
@@ -294,6 +275,7 @@
       },
       {
         "id": "02",
+        "name": "standart",
         "isLink": true,
         "listItem": {
           "ua": "Пакет послуг «Стандарт» 500$",
@@ -302,6 +284,7 @@
       },
       {
         "id": "03",
+        "name": "maximum",
         "isLink": true,
         "listItem": {
           "ua": "Пакет послуг «Максимальний» 800$",

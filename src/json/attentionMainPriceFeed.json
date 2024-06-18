@@ -1,0 +1,30 @@
+[
+  {
+    "id": "02",
+    "text": {
+      "ua": "* Терміни обробки 3-4 тижні",
+      "eng": "* Processing time is 3-4 weeks"
+    }
+  },
+  {
+    "id": "03",
+    "text": {
+      "ua": "* Фото та відео віддаються в електронному вигляді",
+      "eng": "* Photos and videos are delivered electronically"
+    }
+  },
+  {
+    "id": "04",
+    "text": {
+      "ua": "* Оренда фотостудії не входить в вартість послуги",
+      "eng": "* Renting a photo studio is not included in the price of the service"
+    }
+  },
+  {
+    "id": "05",
+    "text": {
+      "ua": "* З деталями послуг для весільної зйомки, можна ознайомитись на сторінці опису пакетів для <NavLink to='/services/wedding/lite'>весільної зйомки</NavLink>",
+      "eng": "* The details of services for wedding photography can be found on the page describing packages for <NavLink to='/services/wedding/lite'>wedding photography</NavLink>"
+    }
+  }
+]

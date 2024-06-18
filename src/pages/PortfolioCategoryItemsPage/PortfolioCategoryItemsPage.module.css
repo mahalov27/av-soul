@@ -26,6 +26,23 @@
 .title::first-letter {
   text-transform: uppercase;
 }
+
+.helper{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 150px;
+}
+
+.helper a {
+  font-weight: 500;
+  color: var(--text-color-1);
+  transition: var(--transition-hover);
+}
+
+.helper a:hover{
+  color: var(--text-color-2)
+}
+
 @media (max-width: 1024px) {
   .linkToBack {
     rotate: -90deg;

@@ -1,6 +1,7 @@
 [
     {
         "id": "01",
+        "name": "lite",
         "price": 300,
         "poster": "/images/pricesDetailsPosters/bg_lite.webp",
         "title": {
@@ -25,8 +26,8 @@
             {
                 "id": "03",
                 "listitem": {
-                    "ua": "Cерія із 500 фотографій в обробці",
-                    "eng": "A series of 500 photos in processing"
+                    "ua": "Cерія із 200 фотографій в обробці",
+                    "eng": "A series of 200 photos in processing"
                 }
             },
             {
@@ -61,6 +62,7 @@
     },
     {
         "id": "02",
+        "name": "standart",
         "price": 500,
         "poster": "/images/pricesDetailsPosters/bg_standart.webp",
         "title": {
@@ -85,8 +87,8 @@
             {
                 "id": "03",
                 "listitem": {
-                    "ua": "Cерія із 1000 фотографій в обробці",
-                    "eng": "A series of 1000 photos in processing"
+                    "ua": "Cерія із 500 фотографій в обробці",
+                    "eng": "A series of 500 photos in processing"
                 }
             },
             {
@@ -121,6 +123,7 @@
     },
     {
         "id": "03",
+        "name": "maximum",
         "price": 800,
         "poster": "/images/pricesDetailsPosters/bg_max.webp",
         "title": {
@@ -145,8 +148,8 @@
             {
                 "id": "03",
                 "listitem": {
-                    "ua": "Cерія із 1500 фотографій в обробці",
-                    "eng": "A series of 1500 photos in processing"
+                    "ua": "Cерія із 700 фотографій в обробці",
+                    "eng": "A series of 700 photos in processing"
                 }
             },
             {

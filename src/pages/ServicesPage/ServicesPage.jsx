@@ -8,6 +8,7 @@ import useImgLoadConrtol from "../../hooks/useImgLoadConrtol";
 import ServicesSkeleton from "./ServicesSkeleton";
 import Loader from "../../components/Loader/Loader";
 import styles from "./ServicesPage.module.css";
+import PackageDetails from "../../components/PackageDetails/PackageDetails";
 
 const ServicesPage = () => {
   const language = useSelector((state) => state.myLanguage);
@@ -28,7 +29,7 @@ const ServicesPage = () => {
               <motion.li
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
+                viewport={{ once: true, amount: 0.8 }}
                 key={price.id}
                 className={styles.blockPrice}
                 
@@ -42,7 +43,7 @@ const ServicesPage = () => {
                 />
                 <motion.div
                   variants={animationCard}
-                  className={styles.priceCard}
+                  className={`${styles.priceCard} ${!price.details ? styles.withOutDetails : ''}`}
                 >
                   <h2 className={styles.priceTitle}>{price.title[language]}</h2>
                   {price.price && (
@@ -60,7 +61,7 @@ const ServicesPage = () => {
                       ) : (
                         <Link
                           key={listitem.id}
-                          to={listitem.id}
+                          to={`wedding/${listitem.name}`}
                           className={styles.price + " " + styles.links}
                         >
                           {listitem.listItem[language]}
@@ -68,6 +69,7 @@ const ServicesPage = () => {
                       );
                     })}
                   </ul>
+                 {price.details && <PackageDetails details={price.details}/>}
                 </motion.div>
               </motion.li>
             );

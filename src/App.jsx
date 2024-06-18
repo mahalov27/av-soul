@@ -1,11 +1,11 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useFirstStart } from "./hooks/useFirstStart";
 import Layout from "./components/Layout/Layout";
 import Loader from "./components/Loader/Loader";
 import LoaderJingle from "./components/LoaderJingle/LoaderJingle";
-import { useEffect } from "react";
+import getNewTitle from "./services/getNewTitle";
 
 const AboutMe = lazy(() => import("./pages/AboutMePage/AboutMePage"));
 const PortfolioCategoryListPage = lazy(() => import("./pages/PortfolioCategoryListPage/PortfolioCategoryListPage"));
@@ -22,12 +22,17 @@ const App = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // document.body.style.overflow = "hidden";
-  },[])
+    document.body.style.overflow = "hidden";
+  },[]);
+
+  useEffect(() => {
+    document.title = getNewTitle(location.pathname);
+  }, [location.pathname]);
+
 
   return (
     <Suspense fallback={<Loader />}>
-      {/* {isFirstStart && <LoaderJingle />} */}
+      {isFirstStart && <LoaderJingle />}
       <AnimatePresence mode="wait">
         <Routes key={location.pathname} location={location}>
           <Route path="/" element={<Layout />}>
@@ -35,7 +40,7 @@ const App = () => {
             <Route path="portfolio" element={<PortfolioCategoryListPage />}/>
             <Route path="portfolio/:category" element={<PortfolioCategoryItemsPage />} />
             <Route path="services" element={<ServicesPage />} />
-            <Route path="services/:id" element={<PriceDetailsPage />} />
+            <Route path="services/wedding/:name" element={<PriceDetailsPage />} />
             <Route path="contacts" element={<ContactsPage />} />
             <Route path="user-account" element={<UserAccountPage />} />
             <Route path="admin" element={<AdminAccountPage />} />

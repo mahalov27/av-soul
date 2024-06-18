@@ -20,6 +20,7 @@
 }
 .nav{
   position: absolute;
+  backdrop-filter: blur(3px);
 }
 .navMobile {
   display: none;
@@ -53,7 +54,7 @@
 
 .navFixed {
   position: fixed;
-  z-index: 2;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;

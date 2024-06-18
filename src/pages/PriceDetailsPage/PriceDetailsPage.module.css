@@ -74,6 +74,33 @@
 .attentionBlock {
   margin-bottom: 30px;
 }
+
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 0.7;
+}
+.title::first-letter {
+  text-transform: uppercase;
+}
+
+.helper{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 150px;
+}
+
+.helper a {
+  color: var(--text-color-1);
+  font-weight: 500;
+  transition: var(--transition-hover);
+}
+
+.helper a:hover{
+  color: var(--text-color-2)
+}
+
 @media (max-width: 555px) {
   .title {
     margin-bottom: 45px;

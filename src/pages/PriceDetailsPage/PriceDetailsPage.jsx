@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { motion, AnimatePresence } from "framer-motion";
 import PagesAnimated from "../../components/PagesAnimated/PagesAnimated";
@@ -11,19 +11,20 @@ import {
   variants,
 } from "../../services/swipeSettings";
 import priceDatails from "../../json/priceDatailsFeed.json";
+import attentionPriceFeed from "../../json/attentionWeddingPriceFeed.json"
 import PriceSkeleton from "./PriceSkeleton";
 import Loader from "../../components/Loader/Loader";
 import styles from "./PriceDetailsPage.module.css";
 
 const PriceDetailsPage = () => {
-  const { id } = useParams();
+  const { name } = useParams();
   const language = useSelector((state) => state.myLanguage);
   const [[currentIndex, step], setPage] = useState([0, 0]);
   const [refreshBackground, setRefreshBackground] = useState(false);
 
   useEffect(() => {
-    setPage([priceDatails.findIndex((item) => item.id === id), 0]);
-  }, [id]);
+    setPage([priceDatails.findIndex((item) => item.name === name), 0]);
+  }, [name]);
 
   const paginate = (newStep) => {
     setPage([getNewIndex(priceDatails.length, currentIndex, newStep), newStep]);
@@ -34,6 +35,27 @@ const PriceDetailsPage = () => {
     setRefreshBackground(true);
   };
 
+  if (!priceDatails.some((item) => item.name === name)) {
+    return (
+      <>
+        <h1 className={styles.title}>
+          {language === "ua"
+            ? "Такого пакету послуг не існує"
+            : "This service package does not exist"}
+        </h1>
+        {language === "ua" ? (
+          <p className={styles.helper}>
+            Перейдіть в розділ <NavLink to="/services">Послуги</NavLink> та
+            оберіть один із запропонованих пакетів послуг.
+          </p>
+        ) : (
+          <p className={styles.helper}>
+            Go to the <NavLink to="/services">Services</NavLink> section and select one of the offered service packages..
+          </p>
+        )}
+      </>
+    );
+  }else{
   return (
     <>
       {!refreshBackground && <Loader />}
@@ -127,11 +149,11 @@ const PriceDetailsPage = () => {
           </button>
         </div>
         <div className={styles.attentionBlock}>
-          <AttentionPrices />
+          <AttentionPrices list={attentionPriceFeed}/>
         </div>
       </PagesAnimated>
     </>
-  );
+  )};
 };
 
 export default PriceDetailsPage;
