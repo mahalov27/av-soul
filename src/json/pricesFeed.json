@@ -1,7 +1,7 @@
 [
   {
     "id": "001",
-    "title": { "ua": "Індивідуальні", "eng": "Individual" },
+    "title": { "ua": "Індивідуальна", "eng": "Individual" },
     "price": 3000,
     "listItems": [
       {
