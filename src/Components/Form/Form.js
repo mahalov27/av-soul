@@ -35,6 +35,7 @@ const Form = () => {
             helperText={formik.errors.firstName}
             error={!!formik.errors.firstName}
           />
+          {formik.values.typeConnect==="call" ?
           <InputMask
             mask="+38 (099) 999-99-99"
             maskChar="_"
@@ -59,7 +60,7 @@ const Form = () => {
               );
             }}
           </InputMask>
-          {formik.values.typeConnect==="send" && (<TextField
+           : (<TextField
             label={
               language === "ua"
                 ? "Посилання на Ваш мессенджер"
@@ -69,6 +70,8 @@ const Form = () => {
             name="messanger"
             value={formik.values.messanger}
             onChange={formik.handleChange}
+            helperText={formik.errors.messanger}
+            error={!!formik.errors.messanger}
           />)}
         </div>
         <div className={styles.typeConnect}>
