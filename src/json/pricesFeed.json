@@ -2,14 +2,14 @@
   {
     "id": "001",
     "title": { "ua": "Індивідуальна", "eng": "Individual" },
-    "price": 3000,
+    "price": 3500,
     "listItems": [
       {
         "id": "03",
         "isLink": false,
         "listItem": {
-          "ua": "Серія зі 100 фото в обробці",
-          "eng": "A series of 100 photos in processing"
+          "ua": "Серія до 100 фото в обробці",
+          "eng": "Processing up to 100 photos"
         }
       },
       {
@@ -71,8 +71,8 @@
         "id": "03",
         "isLink": false,
         "listItem": {
-          "ua": "Серія зі 100 фото в обробці",
-          "eng": "A series of 100 photos in processing"
+          "ua": "Серія до 100 фото в обробці",
+          "eng": "Processing up to 100 photos"
         }
       },
       {
@@ -136,14 +136,14 @@
   {
     "id": "003",
     "title": { "ua": "Закоханi", "eng": "Love story" },
-    "price": 3500,
+    "price": 4000,
     "listItems": [
       {
         "id": "03",
         "isLink": false,
         "listItem": {
-          "ua": "Серія зі 100 фото в обробці",
-          "eng": "A series of 100 photos in processing"
+          "ua": "Серія до 100 фото в обробці",
+          "eng": "Processing up to 100 photos."
         }
       },
       {
@@ -199,7 +199,7 @@
   {
     "id": "004",
     "title": { "ua": "Вагітність", "eng": "Pregnancy" },
-    "price": 3000,
+    "price": 3500,
     "listItems": [
       {
         "id": "02",
@@ -213,8 +213,8 @@
         "id": "03",
         "isLink": false,
         "listItem": {
-          "ua": "Серія зі 100 фото в обробці",
-          "eng": "A series of 100 photos in processing"
+          "ua": "Серія до 100 фото в обробці",
+          "eng": "AProcessing up to 100 photos"
         }
       },
       {
@@ -293,5 +293,51 @@
       }
     ],
     "src": "/images/pricesPosters/BG_price_wedding.webp"
+  },
+  {
+    "id": "008",
+    "title": { "ua": "Подарунковий сертифікат", "eng": "Certificates" },
+    "price": null,
+    "listItems": [
+      {
+        "id": "03",
+        "isLink": false,
+        "listItem": {
+          "ua": "Ціна сертифікату відповідна вартості обраної послуги",
+          "eng": "The price of the certificate corresponds to the cost of the selected service"
+        }
+      }
+    ],
+    "src": "/images/pricesPosters/BG_price_sertificate.webp",
+    "details": [
+      {
+        "id": "02",
+        "text": {
+          "ua": "* Терміни обробки 3-4 тижні",
+          "eng": "* Processing time is 3-4 weeks"
+        }
+      },
+      {
+        "id": "03",
+        "text": {
+          "ua": "* Фото та відео віддаються в електронному вигляді",
+          "eng": "* Photos and videos are delivered electronically"
+        }
+      },
+      {
+        "id": "04",
+        "text": {
+          "ua": "* Оренда фотостудії не входить в вартість послуги",
+          "eng": "* Renting a photo studio is not included in the price of the service"
+        }
+      },
+      {
+        "id": "04",
+        "text": {
+          "ua": "*Термін дії сертифікату - 3 місяці",
+          "eng": "*The certificate is valid for 3 months"
+        }
+      }
+    ]
   }
 ]

@@ -7,7 +7,7 @@ const useImgLoadConrtol = (list = []) => {
   useEffect(() => {
     if (!list) return;
 
-    const listLength = list.length
+    const listLength = list.length 
 
     const checkIfAllImagesLoaded = async () => {
       if (listLength === qtyImgLoaded && !isAllImgLoaded) {

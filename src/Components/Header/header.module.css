@@ -54,7 +54,7 @@
 
 .navFixed {
   position: fixed;
-  z-index: 1000;
+  z-index: 6;
   top: 0;
   left: 0;
   width: 100%;
@@ -160,7 +160,8 @@
     width: 100%;
     height: calc(100dvh - 50px);
     top: 50px;
-    left: -100%;
+    left: 0;
+    transform: translate(-100%);
     background-color: rgba(255, 255, 255, 0.95);
     padding: 15% 0 50%;
     line-height: 3em;
@@ -173,6 +174,6 @@
     height: 100%;
   }
   .navListActive {
-    left: 0;
+    transform: translate(0);;
   }
 }

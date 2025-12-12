@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import PagesAnimated from "../../components/PagesAnimated/PagesAnimated";
 import { useSelector } from "react-redux";
 import Gallery from "../../components/Gallery/Gallery";
