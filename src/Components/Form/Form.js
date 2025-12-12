@@ -16,6 +16,7 @@ import styles from "./Form.module.css";
 const Form = () => {
   const language = useSelector((state) => state.myLanguage);
   const { formik, handleSubmit, pending } = useForm();
+  console.log(formik.values.typeConnect)
 
   return (
     <section className={styles.section}>
@@ -59,7 +60,7 @@ const Form = () => {
               );
             }}
           </InputMask>
-          <TextField
+          {formik.values.typeConnect==="send" && (<TextField
             label={
               language === "ua"
                 ? "Посилання на Ваш мессенджер"
@@ -69,7 +70,7 @@ const Form = () => {
             name="messanger"
             value={formik.values.messanger}
             onChange={formik.handleChange}
-          />
+          />)}
         </div>
         <div className={styles.typeConnect}>
           <FormLabel>
