@@ -36,9 +36,31 @@ const useForm = () => {
           phoneRegex,
           language === "ua" ? "Номер телефону не валідний" : "Invalid phone"
         )
-        .required(
-          language === "ua" ? "Введіть свій номер телефону" : "Enter your phone"
-        ),
+        .when("typeConnect",{
+          is:(typeConnectValue) => typeConnectValue === "call",
+          then: (schema) => schema.required(
+            language === "ua" ? "Введіть свій номер телефону" : "Enter your phone"
+          )
+        }),
+      messanger: Yup.string()
+        .min(
+          2,
+          language === "ua"
+            ? "Повинно бути мінімум 5 знаків"
+            : "Need minimum 5 characters"
+        )
+        .max(
+          20,
+          language === "ua"
+            ? "Повинно бути максимум 35 знаків"
+            : "Need maximun 35 characters"
+        )
+        .when("typeConnect",{
+          is:(typeConnectValue) => typeConnectValue !== "call",
+          then: (schema) => schema.required(
+            language === "ua" ? "Введіть посилання на Ваш мессенджер" : "Enter link to your messenger"
+          )
+        }),
     }),
     validateOnBlur: true,
     onSubmit: () => {},
