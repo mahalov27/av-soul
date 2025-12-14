@@ -69,19 +69,6 @@ const useForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const valueForClear = formik.values.typeConnect !== "call" ? "phone" : "messanger";
-
-    const fakeEvent = {
-      target: {
-        name: valueForClear,
-        value: ""
-      }
-    };
-    console.log(fakeEvent)
-    formik.handleChange(fakeEvent);
-    
-    console.log(formik.values)
-
     const formData = new FormData();
     formData.append("access_key", "75e715fd-170c-43b3-b4ac-a09f1de2ecad");
 
