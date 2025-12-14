@@ -36,9 +36,12 @@ const useForm = () => {
           phoneRegex,
           language === "ua" ? "Номер телефону не валідний" : "Invalid phone"
         )
-        .required(
-          language === "ua" ? "Введіть свій номер телефону" : "Enter your phone"
-        ),
+        .when("typeConnect",{
+          is:(typeConnectValue) => typeConnectValue === "call",
+          then: (schema) => schema.required(
+            language === "ua" ? "Введіть свій номер телефону" : "Enter your phone"
+          )
+        }),
       messanger: Yup.string()
         .min(
           2,
@@ -52,7 +55,12 @@ const useForm = () => {
             ? "Повинно бути максимум 35 знаків"
             : "Need maximun 35 characters"
         )
-        .required(language === "ua" ? "Введіть посилання на Ваш мессенджер" : "Enter link to your messenger")
+        .when("typeConnect",{
+          is:(typeConnectValue) => typeConnectValue !== "call",
+          then: (schema) => schema.required(
+            language === "ua" ? "Введіть посилання на Ваш мессенджер" : "Enter link to your messenger"
+          )
+        }),
     }),
     validateOnBlur: true,
     onSubmit: () => {},
@@ -60,6 +68,19 @@ const useForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const valueForClear = formik.values.typeConnect !== "call" ? "phone" : "messanger";
+
+    const fakeEvent = {
+      target: {
+        name: valueForClear,
+        value: ""
+      }
+    };
+    console.log(fakeEvent)
+    formik.handleChange(fakeEvent);
+    
+    console.log(formik.values)
 
     const formData = new FormData();
     formData.append("access_key", "75e715fd-170c-43b3-b4ac-a09f1de2ecad");
